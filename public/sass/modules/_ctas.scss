@@ -1,0 +1,62 @@
+.ctas {
+  display: flex;
+  justify-content: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 0 10px;
+
+  div {
+    padding: 35px 0;
+    text-align: center;
+
+    h3 {
+      color: #fff;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 33px;
+      margin: 0;
+    }
+
+    h4 {
+      color: #fff;
+      font-style: italic;
+      font-size: 20px;
+      font-weight: normal;
+      line-height: 27px;
+      margin: 0 0 40px;
+    }
+
+    a {
+      color: #FFFFFF;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 27px;
+      text-decoration: underline;
+    }
+  }
+}
+
+.ctas__scholarship {
+  background-color: #2A7AB7;
+  flex: 1;
+  margin-right: 5px;
+
+  img {
+    margin-bottom: 10px;
+    height: 75px;
+    width: 130px;
+  }
+}
+
+.ctas__provider {
+  background-color: #00833E;
+  flex: 1;
+  margin-left: 5px;
+
+  img {
+    margin-bottom: 10px;
+    height: 75px;
+    width: 105px;
+  }
+}

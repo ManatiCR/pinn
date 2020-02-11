@@ -1,0 +1,30 @@
+.nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 25px 40px;
+}
+
+.nav__logo img {
+  object-fit: contain;
+  max-width: 330px;
+}
+
+.nav__micitt {
+  object-fit: contain;
+  max-width: 154px;
+  margin-right: 40px;
+}
+
+.nav__esencial {
+  object-fit: contain;
+  max-width: 120px;
+  margin-right: 40px;
+}
+
+.nav__cinde {
+  object-fit: contain;
+  max-width: 98px;
+}
