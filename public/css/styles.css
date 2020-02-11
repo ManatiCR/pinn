@@ -12717,15 +12717,23 @@ body {
 
 .intro-section {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   max-width: 1440px;
   margin: 0 auto;
   padding: 45px 40px 70px; }
+  @media screen and (min-width: 768px) {
+    .intro-section {
+      flex-direction: row; } }
 
 .intro {
   flex: 1;
-  margin-right: 40px;
+  margin-bottom: 20px;
   max-width: 700px; }
+  @media screen and (min-width: 768px) {
+    .intro {
+      margin-bottom: 0;
+      margin-right: 40px; } }
   .intro p {
     font-size: 14px;
     line-height: 19px; }
@@ -12751,10 +12759,14 @@ body {
 
 .ctas {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 0 10px; }
+  @media screen and (min-width: 576px) {
+    .ctas {
+      flex-direction: row; } }
   .ctas div {
     padding: 35px 0;
     text-align: center; }
@@ -12781,8 +12793,10 @@ body {
 
 .ctas__scholarship {
   background-color: #2A7AB7;
-  flex: 1;
-  margin-right: 5px; }
+  flex: 1; }
+  @media screen and (min-width: 576px) {
+    .ctas__scholarship {
+      margin-right: 5px; } }
   .ctas__scholarship img {
     margin-bottom: 10px;
     height: 75px;
@@ -12790,8 +12804,10 @@ body {
 
 .ctas__provider {
   background-color: #00833E;
-  flex: 1;
-  margin-left: 5px; }
+  flex: 1; }
+  @media screen and (min-width: 576px) {
+    .ctas__provider {
+      margin-left: 5px; } }
   .ctas__provider img {
     margin-bottom: 10px;
     height: 75px;
@@ -12799,10 +12815,14 @@ body {
 
 .oportunities-section {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1440px;
   padding-top: 10px; }
+  @media screen and (min-width: 768px) {
+    .oportunities-section {
+      flex-direction: row; } }
 
 .oportunities {
   background-color: #eff6fa;
@@ -12873,17 +12893,23 @@ body {
     padding-bottom: 20px;
     padding-top: 20px; }
 
-.oportunities-section .smcx-embed {
-  height: 850px; }
-
+.oportunities-section .smcx-embed,
 .oportunities-section .smcx-embed.smcx-hide-branding > .smcx-iframe-container {
+  max-width: 100%;
   height: 850px; }
+  @media screen and (min-width: 768px) {
+    .oportunities-section .smcx-embed,
+    .oportunities-section .smcx-embed.smcx-hide-branding > .smcx-iframe-container {
+      max-width: 450px; } }
 
 .providers {
   background-color: #edf4ee;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 90px 45px; }
+  padding: 50px 45px; }
+  @media screen and (min-width: 768px) {
+    .providers {
+      padding: 90px 45px; } }
 
 .providers__title {
   font-weight: bold;
@@ -12924,9 +12950,15 @@ body {
     line-height: 19px; }
 
 .providers__columns {
+  align-items: center;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin-bottom: 60px; }
+  @media screen and (min-width: 768px) {
+    .providers__columns {
+      align-items: stretch;
+      flex-direction: row; } }
 
 .providers__column {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -13049,9 +13081,12 @@ body {
     margin-bottom: 20px; }
   .providers__accordion-content.open {
     border-top: 1px solid #c5d9ea;
-    max-height: 1000px;
+    max-height: 3000px;
     padding-bottom: 20px;
     padding-top: 20px; }
+    @media screen and (min-width: 768px) {
+      .providers__accordion-content.open {
+        max-height: 1000px; } }
 
 .footer {
   background-color: #f1f2f2;
@@ -13060,13 +13095,20 @@ body {
 .footer__inner {
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1440px;
   padding: 0 45px; }
 
 .footer__logo {
-  max-width: 180px; }
+  max-width: 180px;
+  margin-bottom: 20px;
+  margin-right: 50px; }
+  @media screen and (min-width: 768px) {
+    .footer__logo {
+      margin-bottom: 0;
+      margin-right: 0; } }
 
 .footer__micitt {
   max-width: 128px; }
@@ -13075,37 +13117,61 @@ body {
   max-width: 100px; }
 
 .footer__cinde {
-  max-width: 82px; }
+  max-width: 82px;
+  flex: 1 0 50%; }
+  @media screen and (min-width: 768px) {
+    .footer__cinde {
+      flex: 1 0 100%; } }
 
 .footer__logos {
   align-items: center;
-  border-right: 3px solid #408CC6;
+  border-bottom: 3px solid #408CC6;
   display: flex;
+  flex-wrap: wrap;
   flex: 1;
   justify-content: space-between;
-  padding: 15px 70px 15px 0; }
+  margin-bottom: 20px;
+  padding: 20px 0; }
+  @media screen and (min-width: 768px) {
+    .footer__logos {
+      border-bottom: none;
+      border-right: 3px solid #408CC6;
+      margin-bottom: 0;
+      padding: 15px 70px 15px 0; } }
 
 .footer__contact {
-  min-width: 440px;
-  padding-left: 44px; }
+  min-width: 440px; }
+  @media screen and (min-width: 768px) {
+    .footer__contact {
+      padding-left: 44px; } }
 
 .footer__contact-title {
   color: #408CC6;
-  font-size: 12px;
   font-style: normal;
   font-weight: bold;
   line-height: 16px; }
+  @media screen and (min-width: 768px) {
+    .footer__contact-title {
+      font-size: 12px; } }
 
 .footer__contact-info {
   display: flex;
+  flex-direction: column;
   justify-content: space-between; }
+  @media screen and (min-width: 768px) {
+    .footer__contact-info {
+      flex-direction: row; } }
   .footer__contact-info a {
     align-items: center;
     color: #408CC6;
     display: flex;
-    font-size: 12px;
     font-weight: bold;
-    line-height: 16px; }
+    line-height: 16px;
+    margin-bottom: 10px; }
+    @media screen and (min-width: 768px) {
+      .footer__contact-info a {
+        font-size: 12px;
+        margin-bottom: 0; } }
 
 .footer__contact-phone:before {
   background-image: url("data:image/svg+xml,%3Csvg width='20' height='21' viewBox='0 0 20 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.0677 0.740234C15.5331 0.740234 19.9896 5.19665 19.9896 10.7461C19.9896 16.2116 15.5331 20.668 10.0677 20.668C4.51824 20.668 0.0618286 16.2116 0.0618286 10.7461C0.0618286 5.19665 4.51824 0.740234 10.0677 0.740234ZM7.96566 4.86031C8.30199 5.36481 8.47016 5.61706 8.80649 6.12156C9.14282 6.62606 9.05874 7.38281 8.55424 7.71915L7.62932 8.39181C6.45216 9.23264 10.4041 14.7821 11.4972 13.9413L12.4221 13.2686C13.0107 12.9323 13.7674 13.0164 14.1037 13.605C14.4401 14.0254 14.6082 14.2776 14.9446 14.7821C15.365 15.3707 15.365 16.2956 14.7764 16.632C10.32 19.9112 1.57533 7.71915 6.11582 4.4399C6.70441 4.01948 7.54524 4.35581 7.96566 4.86031ZM10.0677 1.83332C5.19091 1.83332 1.15491 5.86931 1.15491 10.7461C1.15491 15.623 5.19091 19.5749 10.0677 19.5749C14.9446 19.5749 18.8965 15.623 18.8965 10.7461C18.8965 5.86931 14.9446 1.83332 10.0677 1.83332Z' fill='%23408CC6'/%3E%3C/svg%3E%0A");

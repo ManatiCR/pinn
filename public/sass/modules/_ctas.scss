@@ -1,9 +1,14 @@
 .ctas {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 0 10px;
+
+  @media screen and (min-width: 576px) {
+    flex-direction: row;
+  }
 
   div {
     padding: 35px 0;
@@ -40,7 +45,10 @@
 .ctas__scholarship {
   background-color: #2A7AB7;
   flex: 1;
-  margin-right: 5px;
+
+  @media screen and (min-width: 576px) {
+    margin-right: 5px;
+  }
 
   img {
     margin-bottom: 10px;
@@ -52,7 +60,10 @@
 .ctas__provider {
   background-color: #00833E;
   flex: 1;
-  margin-left: 5px;
+
+  @media screen and (min-width: 576px) {
+    margin-left: 5px;
+  }
 
   img {
     margin-bottom: 10px;

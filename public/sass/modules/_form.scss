@@ -1,9 +1,11 @@
 .oportunities-section {
-  .smcx-embed {
-    height: 850px;
-  }
-
+  .smcx-embed,
   .smcx-embed.smcx-hide-branding>.smcx-iframe-container {
+    max-width: 100%;
     height: 850px;
+
+    @media screen and (min-width: 768px) {
+      max-width: 450px;
+    }
   }
 }

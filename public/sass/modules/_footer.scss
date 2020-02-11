@@ -6,6 +6,7 @@
 .footer__inner {
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1440px;
@@ -14,6 +15,13 @@
 
 .footer__logo {
   max-width: 180px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+    margin-right: 0;
+  }
 }
 
 .footer__micitt {
@@ -27,41 +35,71 @@
 
 .footer__cinde {
   max-width: 82px;
+  flex: 1 0 50%;
+
+  @media screen and (min-width: 768px) {
+    flex: 1 0 100%;
+  }
 }
 
 .footer__logos {
   align-items: center;
-  border-right: 3px solid #408CC6;
+  border-bottom: 3px solid #408CC6;
   display: flex;
+  flex-wrap: wrap;
   flex: 1;
   justify-content: space-between;
-  padding: 15px 70px 15px 0;
+  margin-bottom: 20px;
+  padding: 20px 0;
+
+  @media screen and (min-width: 768px) {
+    border-bottom: none;
+    border-right: 3px solid #408CC6;
+    margin-bottom: 0;
+    padding: 15px 70px 15px 0;
+  }
 }
 
 .footer__contact {
   min-width: 440px;
-  padding-left: 44px;
+
+  @media screen and (min-width: 768px) {
+    padding-left: 44px;
+  }
 }
 
 .footer__contact-title {
   color: #408CC6;
-  font-size: 12px;
   font-style: normal;
   font-weight: bold;
   line-height: 16px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 12px;
+  }
 }
 
 .footer__contact-info {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
 
   a {
     align-items: center;
     color: #408CC6;
     display: flex;
-    font-size: 12px;
     font-weight: bold;
     line-height: 16px;
+    margin-bottom: 10px;
+
+    @media screen and (min-width: 768px) {
+      font-size: 12px;
+      margin-bottom: 0;
+    }
   }
 }
 

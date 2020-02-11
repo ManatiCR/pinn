@@ -1,9 +1,14 @@
 .oportunities-section {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1440px;
   padding-top: 10px;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
 }
 
 .oportunities {
