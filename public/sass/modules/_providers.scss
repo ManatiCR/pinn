@@ -45,7 +45,7 @@
 
 .providers__content {
   max-width: 700px;
-  margin-bottom: 35px;
+  margin-bottom: 40px;
 
   p {
     font-size: 14px;
@@ -99,26 +99,134 @@
 
 .providers--national {
   background: #2A7AB7;
+
+  .providers__link {
+    margin-top: 60px;
+  }
 }
 
 .providers--international {
   background: #439552;
+
+  a:nth-child(2) {
+    border-color: #214327;
+    color: #214327;
+    margin-top: 20px;
+
+    &:after {
+      border-left: 10px solid #214327;
+    }
+  }
+
+  .providers__link {
+    margin-top: 60px;
+  }
 }
 
 .providers--bootcamp {
   background: #2865AD;
+
+  a:nth-child(2) {
+    border-color: #002642;
+    color: #002642;
+    margin-top: 20px;
+
+    &:after {
+      border-left: 10px solid #002642;
+    }
+  }
+
+  .providers__link {
+    margin-top: 45px;
+  }
 }
 
 .providers__link {
   display: flex;
   flex-direction: column;
-  margin: 30px auto 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 190px;
 
   a {
+    align-items: center;
     border: 2px solid #FFFFFF;
+    color: #fff;
     display: flex;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
     justify-content: space-between;
     padding: 10px 13px;
+
+    &:after {
+      content: '';
+      display: inline-block;
+      border-bottom: 7px solid transparent;
+      border-left: 10px solid #fff;
+      border-top: 7px solid transparent;
+      height: 0;
+      width: 0;
+    }
+  }
+}
+
+
+.providers__accordion {
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.providers__accordion-heading {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 24px;
+
+  h4 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 0;
+  }
+
+  &:after {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 12px solid #439552;
+    content: '';
+    height: 0;
+    width: 0;
+    transition: transform .4s;
+  }
+
+  &.open {
+    &:after {
+      transform: rotateX(180deg);
+    }
+  }
+}
+
+.providers__accordion-content {
+  height: auto;
+  margin: 0 20px;
+  max-height: 0;
+  transition: max-height 0.25s, padding-top 0.25s;
+  overflow: hidden;
+
+  li {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 20px;
+  }
+
+  &.open {
+    border-top: 1px solid #c5d9ea;
+    max-height: 1000px;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
 }

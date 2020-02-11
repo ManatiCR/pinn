@@ -1,8 +1,8 @@
 .oportunities-section {
   display: flex;
   justify-content: space-between;
-  max-width: 1440px;
   margin: 0 auto;
+  max-width: 1440px;
   padding-top: 10px;
 }
 
@@ -76,6 +76,7 @@
 
 .oportunities__accordion-content {
   height: auto;
+  margin: 0 20px;
   max-height: 0;
   transition: max-height 0.25s, padding-top 0.25s;
   overflow: hidden;
@@ -87,9 +88,8 @@
   }
 
   &.open {
-    border-top: 1px solid #c5d9ea;
+    border-top: 1px solid #dce9dd;
     max-height: 1000px;
-    margin: 0 20px;
     padding-bottom: 20px;
     padding-top: 20px;
   }
