@@ -13112,6 +13112,21 @@ ol {
       .providers__accordion-content.open {
         max-height: 1000px; } }
 
+.providers__remark-content {
+  background-color: #fff;
+  justify-content: space-between;
+  padding: 20px 24px;
+  margin-bottom: 30px; }
+  .providers__remark-content h4 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #0066B2; }
+  .providers__remark-content .margins {
+    margin: 25px; }
+  .providers__remark-content .highlighted {
+    font-weight: bold; }
+
 .footer {
   background-color: #f1f2f2;
   padding: 50px 0 25px; }
