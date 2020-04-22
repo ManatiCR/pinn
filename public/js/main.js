@@ -10,8 +10,7 @@ window.DBG = (typeof DBG === 'undefined') ? true : DBG;
  * Var
  */
 var $ = require('jquery');
-var UI = require('./ui');
-var Bumeran = require('./Bumeran');
+var Bumeran = require('./bumeran');
 
 /*
  * Require

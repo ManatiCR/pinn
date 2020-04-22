@@ -44,7 +44,7 @@
     "jquery": "^3.4.1",
     "json-update": "^4.0.0",
     "moment": "^2.24.0",
-    "nodemon": "^1.19.1",
+    "nodemon": "^2.0.3",
     "popper.js": "^1.15.0",
     "semistandard": "^13.0.1",
     "slick-carousel": "^1.8.1",
