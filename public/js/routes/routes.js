@@ -4,5 +4,5 @@ module.exports = {
   //
   // All pages
   //
-  default: require('../ctrl/default'),
+  default: require('../ctrl/default')
 };
