@@ -40,7 +40,9 @@ const paths = {
     '!./public/js/lib/*.js',
     'gulpfile.js',
     '!node_modules/**'
-  ]
+  ],
+
+  files: './public/files/**/*'
 };
 
 /**
@@ -184,6 +186,14 @@ gulp.task('video', (cb) => {
     .on('end', cb);
 });
 
+// copy files into public-build
+gulp.task('files', (cb) => {
+  gulp.src(paths.files)
+    .pipe(gulp.dest('./public-build/files'))
+    .on('end', cb);
+});
+
+
 // gulp.task('watch', ['watch:sass', 'watch:semistandard']);
 gulp.task('watch', gulp.parallel('watch:sass', 'watch:semistandard', 'watch:browserify'));
 
@@ -194,7 +204,8 @@ gulp.task('production', gulp.series(
   'cssnano',
   'imgoptim',
   'uglify',
-  'copy'
+  'copy',
+  'files'
 ));
 
 gulp.task('default', gulp.series(['watch']));
