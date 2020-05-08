@@ -99,3 +99,29 @@
     padding-top: 20px;
   }
 }
+
+.oportunities__coming-soon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  height: 850px;
+  background-color: #2A7AB7;
+  text-align: center;
+  padding: 40px 70px;
+  color: #FFFFFF;
+
+  .content span {
+    display: block;
+    margin-top: 40px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 450px;
+  }
+}

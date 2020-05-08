@@ -1,10 +1,46 @@
 .objectives {
-  background-color: #B2D234;
-  max-width: 380px;
+  width: 100%;
   padding: 20px 15px;
 
-  p {
-    font-size: 14px;
+  @media screen and (min-width: 768px) {
+    width: 45%;
+  }
+}
+
+.objectives__content {
+  display: flex;
+  justify-content: left;
+  flex-flow: row wrap;
+  align-content: stretch;
+
+  div {
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 0;
+
+    @media screen and (min-width: 414px) {
+      width: 40%;
+      margin-right: 30px;
+    }
+
+    @media screen and (min-width: 768px) {
+      width: 100%;
+      margin-right: 0;
+    }
+
+    @media screen and (min-width: 834px) {
+      width: 40%;
+      margin-right: 30px;
+    }
+
+    span {
+      display: block;
+      margin-top: 10px;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 19px;
+      color: #000000;
+    }
   }
 }
 

@@ -185,7 +185,6 @@
   }
 }
 
-
 .providers__accordion {
   background-color: #fff;
   margin-bottom: 10px;
@@ -268,8 +267,17 @@
   }
 }
 
-.providers__documents--button {
+.providers__documents {
   margin-top: 40px;
+  color: #FFFFFF;
+}
+
+.providers__documents--title {
+  font-size: 24px;
+}
+
+.providers__documents--button {
+  margin-top: 15px;
   font-weight: bold;
 
   a {

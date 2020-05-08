@@ -1,5 +1,5 @@
 .footer {
-  background-color: #f1f2f2;
+  background-color: #FFFFFF;
   padding: 50px 0 25px;
 }
 
@@ -125,5 +125,43 @@
     height: 14px;
     margin-right: 10px;
     width: 21px;
+  }
+}
+
+.pre-footer-section {
+  position: relative;
+}
+
+.pre-footer-section--content {
+  position: absolute;
+  background: #00833E;
+  opacity: 0.9;
+  color: #FFFFFF;
+  bottom: 5%;
+  width: 100%;
+  padding: 10px 30px;
+  font-size: 18px;
+  line-height: 20px;
+
+  @media screen and (min-width: 414px) {
+    bottom: 8%;
+    width: 400px;
+    padding: 20px 40px;
+  }
+
+  @media screen and (min-width: 834px) {
+    bottom: 8%;
+    width: 450px;
+    padding: 30px 60px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    bottom: 10%;
+    width: 480px;
+    padding: 40px 80px;
+    font-size: 22px;
+    line-height: 30px;
   }
 }
