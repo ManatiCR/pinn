@@ -15,7 +15,7 @@ slider.init = function () {
     arrows: true,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 6000,
     fade: true,
     speed: 50,
     dots: true,
