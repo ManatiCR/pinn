@@ -12977,6 +12977,13 @@ ol {
     .oportunities-section .smcx-embed.smcx-hide-branding > .smcx-iframe-container {
       max-width: 450px; } }
 
+.oportunities-section .smcx-embed.smcx-widget-dark > .smcx-iframe-container {
+  max-width: 90%;
+  height: 815px; }
+  @media screen and (min-width: 768px) {
+    .oportunities-section .smcx-embed.smcx-widget-dark > .smcx-iframe-container {
+      max-width: 450px; } }
+
 .providers {
   background-color: #edf4ee;
   max-width: 1440px;

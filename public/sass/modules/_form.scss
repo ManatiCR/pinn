@@ -8,4 +8,12 @@
       max-width: 450px;
     }
   }
+  .smcx-embed.smcx-widget-dark>.smcx-iframe-container {
+    max-width: 90%;
+    height: 815px;
+
+    @media screen and (min-width: 768px) {
+      max-width: 450px;
+    }
+  }
 }
