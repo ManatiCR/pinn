@@ -61,6 +61,10 @@
 }
 
 .footer__contact {
+  @media screen and (min-width: 500px) {
+    padding-left: 20px;
+  }
+
   @media screen and (min-width: 768px) {
     min-width: 440px;
     padding-left: 44px;
@@ -87,10 +91,10 @@
     flex-direction: row;
   }
 
-  a {
+  .footer__contact-item {
+    display: flex;
     align-items: center;
     color: #408CC6;
-    display: flex;
     font-weight: bold;
     line-height: 16px;
     margin-bottom: 10px;
@@ -100,6 +104,18 @@
       margin-bottom: 0;
     }
   }
+}
+
+.footer__contact-phones-list {
+  a {
+    display: block;
+  }
+}
+
+.footer__contact-phone,
+.footer__contact-email {
+  display: flex;
+  align-items: center;
 }
 
 .footer__contact-phone {

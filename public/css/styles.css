@@ -13265,6 +13265,10 @@ ol {
       margin-bottom: 0;
       padding: 15px 70px 15px 0; } }
 
+@media screen and (min-width: 500px) {
+  .footer__contact {
+    padding-left: 20px; } }
+
 @media screen and (min-width: 768px) {
   .footer__contact {
     min-width: 440px;
@@ -13286,17 +13290,25 @@ ol {
   @media screen and (min-width: 768px) {
     .footer__contact-info {
       flex-direction: row; } }
-  .footer__contact-info a {
+  .footer__contact-info .footer__contact-item {
+    display: flex;
     align-items: center;
     color: #408CC6;
-    display: flex;
     font-weight: bold;
     line-height: 16px;
     margin-bottom: 10px; }
     @media screen and (min-width: 768px) {
-      .footer__contact-info a {
+      .footer__contact-info .footer__contact-item {
         font-size: 12px;
         margin-bottom: 0; } }
+
+.footer__contact-phones-list a {
+  display: block; }
+
+.footer__contact-phone,
+.footer__contact-email {
+  display: flex;
+  align-items: center; }
 
 .footer__contact-phone:before {
   background-image: url("data:image/svg+xml,%3Csvg width='20' height='21' viewBox='0 0 20 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.0677 0.740234C15.5331 0.740234 19.9896 5.19665 19.9896 10.7461C19.9896 16.2116 15.5331 20.668 10.0677 20.668C4.51824 20.668 0.0618286 16.2116 0.0618286 10.7461C0.0618286 5.19665 4.51824 0.740234 10.0677 0.740234ZM7.96566 4.86031C8.30199 5.36481 8.47016 5.61706 8.80649 6.12156C9.14282 6.62606 9.05874 7.38281 8.55424 7.71915L7.62932 8.39181C6.45216 9.23264 10.4041 14.7821 11.4972 13.9413L12.4221 13.2686C13.0107 12.9323 13.7674 13.0164 14.1037 13.605C14.4401 14.0254 14.6082 14.2776 14.9446 14.7821C15.365 15.3707 15.365 16.2956 14.7764 16.632C10.32 19.9112 1.57533 7.71915 6.11582 4.4399C6.70441 4.01948 7.54524 4.35581 7.96566 4.86031ZM10.0677 1.83332C5.19091 1.83332 1.15491 5.86931 1.15491 10.7461C1.15491 15.623 5.19091 19.5749 10.0677 19.5749C14.9446 19.5749 18.8965 15.623 18.8965 10.7461C18.8965 5.86931 14.9446 1.83332 10.0677 1.83332Z' fill='%23408CC6'/%3E%3C/svg%3E%0A");
@@ -13587,7 +13599,7 @@ ol {
     border: 3px solid #FFFFFF;
     font-size: 13px;
     padding: 5px 10px;
-    width: 145px; }
+    width: 195px; }
     .slide-item__content .slider-item__cta i {
       margin-left: 15px; }
     .slide-item__content .slider-item__cta:hover {
@@ -13610,7 +13622,7 @@ ol {
         font-size: 18px; }
       .slide-item__content .slider-item__cta {
         font-size: 16px;
-        width: 160px; } }
+        width: 225px; } }
   @media screen and (min-width: 568px) {
     .slide-item__content {
       top: 15%;
