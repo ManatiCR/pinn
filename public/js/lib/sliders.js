@@ -17,7 +17,7 @@ slider.init = function () {
     autoplay: true,
     autoplaySpeed: 6000,
     fade: true,
-    speed: 50,
+    speed: 600,
     dots: true,
   }).on('afterChange', function (event, $slider, currentSlide) {
     $('.slider-header .slider__controls .position').html( (currentSlide + 1) + '/' + $slider.slideCount );
