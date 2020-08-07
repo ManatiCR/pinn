@@ -1,0 +1,64 @@
+/****************************** Accordion ******************************/
+
+.faqs__accordion {
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.faqs__accordion-heading {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 24px;
+
+  h4 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 0;
+  }
+
+  &:after {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 12px solid #439552;
+    content: '';
+    height: 0;
+    width: 0;
+    transition: transform .4s;
+  }
+
+  &.open {
+    &:after {
+      transform: rotateX(180deg);
+    }
+  }
+}
+
+.faqs__accordion-content {
+  height: auto;
+  margin: 0 20px;
+  max-height: 0;
+  transition: max-height 0.25s, padding-top 0.25s;
+  overflow: hidden;
+
+  li {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 20px;
+  }
+
+  &.open {
+    border-top: 1px solid #c5d9ea;
+    max-height: 3000px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    @media screen and (min-width: 768px) {
+      max-height: 1000px;
+    }
+  }
+}
+
+/****************************** Accordion ******************************/

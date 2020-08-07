@@ -12968,6 +12968,77 @@ ol {
     .oportunities__coming-soon {
       max-width: 450px; } }
 
+.oportunities__calls--content {
+  color: #FFF;
+  margin: 30px 0;
+  padding: 40px 80px;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 0px solid #000000; }
+  .oportunities__calls--content a {
+    color: #FFF; }
+  .oportunities__calls--content .oportunities__calls--more_info a {
+    font-weight: bold; }
+  .oportunities__calls--content .oportunities__calls--more_info i {
+    margin-left: 15px; }
+
+.scholarships--bootcamps {
+  background: #2865AD; }
+
+.scholarships--internationals {
+  background: #439552; }
+
+.scholarships--nationals {
+  background: #2A7AB7; }
+
+/****************************** Accordion ******************************/
+.faqs__accordion {
+  background-color: #fff;
+  margin-bottom: 10px; }
+
+.faqs__accordion-heading {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 24px; }
+  .faqs__accordion-heading h4 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 0; }
+  .faqs__accordion-heading:after {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 12px solid #439552;
+    content: '';
+    height: 0;
+    width: 0;
+    transition: transform .4s; }
+  .faqs__accordion-heading.open:after {
+    transform: rotateX(180deg); }
+
+.faqs__accordion-content {
+  height: auto;
+  margin: 0 20px;
+  max-height: 0;
+  transition: max-height 0.25s, padding-top 0.25s;
+  overflow: hidden; }
+  .faqs__accordion-content li {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 20px; }
+  .faqs__accordion-content.open {
+    border-top: 1px solid #c5d9ea;
+    max-height: 3000px;
+    padding-bottom: 20px;
+    padding-top: 20px; }
+    @media screen and (min-width: 768px) {
+      .faqs__accordion-content.open {
+        max-height: 1000px; } }
+
+/****************************** Accordion ******************************/
 .oportunities-section .smcx-embed,
 .oportunities-section .smcx-embed.smcx-hide-branding > .smcx-iframe-container {
   max-width: 100%;

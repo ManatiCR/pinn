@@ -5,8 +5,8 @@ var $ = require('jquery');
 var more = {};
 
 more.init = function () {
-  let blocks = $('.providers__documents--button');
-  $('.providers__documents--content').hide();
+  let blocks = $('.providers__documents--button, .oportunities__calls--more_info');
+  $('.providers__documents--content, .oportunities__calls--scholarships__block').hide();
 
   blocks.each((i, ele) => {
     $(ele).on('click', function(event) {
@@ -14,8 +14,8 @@ more.init = function () {
 
       let _this = $(this);
       let button = _this.find('a');
-      let content = _this.parent().find('.providers__documents--content');
-      let status = _this.parent().find('.providers__documents--content.open');
+      let content = _this.parent().find('.providers__documents--content, .oportunities__calls--scholarships__block');
+      let status = _this.parent().find('.providers__documents--content.open, .oportunities__calls--scholarships__block.open');
       let html = button.html();
 
       if (status.length === 0) {

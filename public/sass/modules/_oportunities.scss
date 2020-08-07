@@ -125,3 +125,35 @@
     max-width: 450px;
   }
 }
+
+.oportunities__calls--content {
+  color: #FFF;
+  margin: 30px 0;
+  padding: 40px 80px;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 0px solid #000000;
+
+  a {
+    color: #FFF;
+  }
+
+  .oportunities__calls--more_info a {
+    font-weight: bold;
+  }
+
+  .oportunities__calls--more_info i {
+    margin-left: 15px;
+  }
+}
+
+.scholarships--bootcamps {
+  background: #2865AD;
+}
+.scholarships--internationals {
+  background: #439552;
+}
+.scholarships--nationals {
+  background: #2A7AB7;
+}

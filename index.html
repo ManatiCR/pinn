@@ -52,9 +52,21 @@
       <img class="nav__cinde" src="public/img/cinde-logo.png" alt="Cinde Logo">
     </div>
   </nav>
+  <div class="site-main-menu">
+    <nav>
+      <ul>
+        <li><a href="#section-pinn">¿Qué es PINN?</a></li>
+        <li><a href="#section-scholarships">Becas</a></li>
+        <li><a href="#section-providers">Proveedores</a></li>
+        <li><a href="#section-faqs">Preguntas Frecuentes</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!--
   <div class="banner">
     <h1 class="banner__title">Programa de Innovación y</br> Capital Humano (PINN)</h1>
   </div>
+  -->
   <section class="slider-section">
     <div class="slider-header">
       <div class="slide-item">
@@ -89,7 +101,7 @@
       </div>
     </div>
   </section>
-  <section class="intro-section">
+  <section id="section-pinn" class="intro-section">
     <div class="intro">
       <h2 class="intro__title">¿Qué es PINN?</h2>
       <p>El Ministerio de Ciencia, Tecnología y Telecomunicaciones (MICITT) gestionó un préstamo con el Banco Interamericano de Desarrollo (BID) con el objetivo de fortalecer y apoyar el crecimiento de la productividad del país mediante el apoyo a las actividades de formación de capital humano avanzado llamado Programa de Innovación y Capital Humano para la Competitividad (PINN). Actualmente el MICITT es el ministerio encargado de la ejecución del PINN, bajo la coordinación de la Unidad Ejecutora.</p>
@@ -128,69 +140,128 @@
       </div>
     </div>
   </section>
-  <section class="ctas">
-    <div class="ctas__scholarship">
-      <img src="public/img/scholarship-icon.svg" alt="Ícono de Beca">
-      <h3>Oportunidades de Beca</h3>
-      <h4>Scholarship opportunities</h4>
-      <a href="#section-scholarships">Conozca más ></a>
-    </div>
-    <div class="ctas__provider">
-      <img src="public/img/provider-icon.svg" alt="Ícono de Proovedor">
-      <h3>Soy un proveedor</h3>
-      <h4>I am a supplier</h4>
-      <a href="#section-providers">Conozca más ></a>
-    </div>
+  <section class="section-intermediate-banners">
+    <img class="banner__img" src="public/img/banner-aumentar-productividad-1.jpg" alt="Aumentar la productividad del país" title="Aumentar la productividad del país" aria-label="Aumentar la productividad del país">
+    <div class="banners__content float-right box-light-blue-shadow-light-blue">"<b>Aumentar la productividad</b> del país mediante la formación de <b>capital humano</b>."</div>
   </section>
   <section id="section-scholarships" class="oportunities-section">
     <div class="oportunities">
       <h2 class="oportunities__title">Oportunidades de Beca</h2>
       <div class="oportunities__content">
-        <p>PRÓXIMAMENTE DISPONIBLE.</p>
-        <p>Los ciudadanos costarricenses interesados en aplicar los fondos no reembolsables podrán hacerlo mediante el sitio web del proveedor que impartirá la capacitación y certificación de su interés.</p>
-        <p>Podrá conocer los cursos disponibles próximamente en el Registro de Proveedores de Certificaciones y Capacitaciones disponible en este sitio. Cada una de las ofertas académicas disponibles contarán con requerimientos específicos que dependen del tipo de Capacitación y Certificación, los cuales deberán ser de consideración para los posibles beneficiarios antes de realizar la solicitud de financiamiento.</p>
+        <p>Los ciudadanos costarricenses interesados en aplicar los fondos no reembolsables pueden hacerlo mediante el sitio web del proveedor que imparte la capacitación y certificación de su interés.</p>
+        <p>Puede conocer los cursos disponibles en el Registro de Proveedores de Certificaciones y Capacitaciones disponible en este sitio. Cada una de las ofertas académicas disponibles cuentan con requerimientos específicos que dependen del tipo de capacitación y certificación, los cuales deben ser de consideración para los posibles beneficiarios antes de realizar la solicitud de financiamiento.</p>
+        <p><a href="#">Solicitar Beca</a></p>
       </div>
-      <div class="oportunities__accordion js-accordion">
-        <div class="oportunities__accordion-heading js-heading open">
-          <h4>Requisitos mínimos</h4>
+      <div class="oportunities__calls">
+        <div class="oportunities__calls--content scholarships--bootcamps">
+          <div class="oportunities__calls--content__text">
+            <div>
+              <img src="public/img/provider-bootcamp.svg" alt="Imagen Bootcamp">
+            </div>
+            <div>
+              Organizaciones nacionales e internacionales que brindan capacitaciones intensivas de aproximadamente 3 a 6 meses.
+            </div>
+            <div>
+              <b>Enlaces de interés</b>
+              <ul>
+                <li>
+                  <a href="#" target="_blank">Convocatoria</a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">Anexo 1</a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">Anexo 2</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="oportunities__calls--more_info">
+            <a href="#">Más información<i class="fas fa-chevron-down"></i></a>
+          </div>
+          <div class="oportunities__calls--scholarships__block">
+            <div id="react-app-calls-scholarship-bootcamps"></div>
+          </div>
         </div>
-        <div class="oportunities__accordion-content js-content open">
-          <ol>
-            <li>Ser ciudadano costarricense mayor de 18 años, nacionalizado o extranjero con residencia permanente.</li>
-            <li>Haber aprobado el cuarto ciclo de educación diversificada</li>
-            <li>No haber sido beneficiario del subcomponente II.3 antes</li>
-          </ol>
+        <div class="oportunities__calls--content scholarships--internationals">
+          <div class="oportunities__calls--content__text">
+            <div>
+              <img src="public/img/provider-international.svg" alt="Imagen Globo Mundo">
+            </div>
+            <div>
+              Organizaciones nacionales e internacionales que brindan capacitaciones intensivas de aproximadamente 3 a 6 meses.
+            </div>
+            <div>
+              <b>Enlaces de interés</b>
+              <ul>
+                <li>
+                  <a href="#" target="_blank">Convocatoria</a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">Anexo 1</a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">Anexo 2</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="oportunities__calls--more_info">
+            <a href="#">Más información<i class="fas fa-chevron-down"></i></a>
+          </div>
+          <div class="oportunities__calls--scholarships__block">
+            <div id="react-app-calls-scholarship-internationals"></div>
+          </div>
+        </div>
+        <div class="oportunities__calls--content scholarships--nationals">
+          <div class="oportunities__calls--content__text">
+            <div>
+              <img src="public/img/provider-national.svg" alt="Imagen mapa Costa Rica">
+            </div>
+            <div>
+              Organizaciones nacionales e internacionales que brindan capacitaciones intensivas de aproximadamente 3 a 6 meses.
+            </div>
+            <div>
+              <b>Enlaces de interés</b>
+              <ul>
+                <li>
+                  <a href="#" target="_blank">Convocatoria</a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">Anexo 1</a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">Anexo 2</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="oportunities__calls--more_info">
+            <a href="#">Más información<i class="fas fa-chevron-down"></i></a>
+          </div>
+          <div class="oportunities__calls--scholarships__block">
+            <div id="react-app-calls-scholarship-nationals"></div>
+          </div>
         </div>
       </div>
-      <div class="oportunities__accordion js-accordion">
-        <div class="oportunities__accordion-heading js-heading open">
-          <h4>Pasos para aplicar</h4>
+      <div class="oportunities__postcontent">
+        <div class="oportunities__postcontent--documents">
+          <h3>Cuáles documentos debo presentar</h3>
+          <div id="react-app-calls-scholarship-documents"></div>
+          <div class="oportunities__postcontent--apply">
+            <a href="#">Iniciar aplicación</a>
+          </div>
         </div>
-        <div class="oportunities__accordion-content js-content open">
-          <ol>
-            <li>Conocer la oferta del Registro de Proveedores de Capacitación y Certificación</li>
-            <li>Cumplir con los requerimientos específicos del curso de interés</li>
-            <li>Cumplir con los requerimientos básicos indicados en la convocatoria</li>
-            <li>Completar el formulario de aplicación (disponible en el sitio web del proveedor seleccionado)</li>
-          </ol>
+        <div class="oportunities__postcontent--steps">
+          <h3>Pasos para presentar la documentación</h3>
+          <div id="react-app-calls-scholarship-steps"></div>
         </div>
       </div>
     </div>
-
-    <script>
-      (function(t,e,s,n){
-        var o,a,c;t.SMCX=t.SMCX||[],e.getElementById(n)||(o=e.getElementsByTagName(s),a=o[o.length-1],c=e.createElement(s),c.type="text/javascript",c.async=!0,c.id=n,c.src=["https:"===location.protocol?"https://":"http://","widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd4e1CIV_2Bf_2BH_2BUy_2FNsaaD89T_2BmvxJSKlciz771humNBs_2F.js"].join(""),a.parentNode.insertBefore(c,a))
-      })(window,document,"script","smcx-sdk");
-    </script>
-
-    <!--
-    <div class="oportunities__coming-soon">
-      <div class="content">
-        <img src="public/img/coming-soon.svg" alt="Próximamente más información">
-        <span>Próximamente podrás encontrar más información aquí</span>
-      </div>
-    </div>
-    -->
+  </section>
+  <section class="section-intermediate-banners">
+    <img class="banner__img" src="public/img/banner-aumentar-productividad-2.jpg" alt="Aumentar la productividad del país" title="Aumentar la productividad del país" aria-label="Aumentar la productividad del país">
+    <div class="banners__content float-right box-light-blue-shadow-green">"<b>Aumentar la productividad</b> del país mediante la formación de <b>capital humano</b>."</div>
   </section>
   <section id="section-providers" class="providers">
     <div class="providers__heading">
@@ -198,305 +269,32 @@
       <a href="#topSite" class="providers__toTop">Volver al inicio</a>
     </div>
     <div class="providers__content">
-      <p>Las organizaciones que se dediquen a brindar servicios de certificaciones, capacitaciones y bootcamps en áreas de ciencia, tecnología, innovación podrán presentar sus propuestas a CINDE y a MICITT para ser parte del Registro de Proveedores de Capacitación y brindar sus servicios como parte del programa PINN.</p>
-      <p>Actualmente se encuentran disponibles tres convocatorias para proveedores:</p>
-    </div>
-    <div class="providers__columns">
-      <div class="providers__column providers--national">
-        <img src="public/img/provider-national.svg" alt="Imagen mapa Costa Rica">
-        <h3>Nacionales</h3>
-        <h4>Based in Costa Rica</h4>
-        <p>Organizaciones que cuentan con una personería jurídica establecida en Costa Rica.</p>
-        <!--
-        <div class="providers__link">
-          <a target="_blank" href="https://micit.go.cr/registro-proveedores-nacionales-calificacion-profesional-concurso-2-3-1-20-5">Ir a Convocatoria</a>
-        </div>
-        -->
-        <div class="providers__documents">
-          <div class="providers__documents--title">Concurso 2-3-1-20-5</div>
-          <div class="providers__documents--button"><a href="#">Más información<i class="fas fa-chevron-down"></i></a></div>
-          <div class="providers__documents--content">
-            <div class="providers__documents--link__item">
-              <div class="icon"><i class="far fa-file-alt"></i></div>
-              <div class="link"><a target="_blank" href="public/files/nacionales/bases_del_concurso_proveedores_nacionales_2-3-1-20-5.pdf">Bases del concurso 2-3-1-20-5 Proveedores nacionales</a></div>
-            </div>
-            <div class="providers__documents--link__item">
-              <div class="icon"><i class="far fa-file-alt"></i></div>
-              <div class="link"><a target="_blank" href="public/files/nacionales/modificacion_a_convocatorias_de_proveedores_de_calificacion_profesional_pinn.pdf">Modificación de la&nbsp;convocatoria&nbsp;2-3-1-20-5</a></div>
-            </div>
-            <div class="providers__documents--link__item">
-              <div class="icon"><i class="far fa-file-alt"></i></div>
-              <div class="link"><a target="_blank" href="public/files/nacionales/anexo_1-hoja_de_vida.docx">Anexo 1: Hoja de vida</a></div>
-            </div>
-            <div class="providers__documents--link__item">
-              <div class="icon"><i class="far fa-file-alt"></i></div>
-              <div class="link"><a target="_blank" href="public/files/nacionales/anexo_2-tabla_de_experiencia.docx">Anexo 2: Tabla de experiencia</a></div>
-            </div>
-            <div class="providers__documents--link__item">
-              <div class="icon"><i class="far fa-file-alt"></i></div>
-              <div class="link"><a target="_blank" href="public/files/nacionales/anexo_3-declaracion_jurada.docx">Anexo 3: Declaración Jurada</a></div>
-            </div>
-            <div class="providers__documents--link__item">
-              <div class="icon"><i class="far fa-file-alt"></i></div>
-              <div class="link"><a target="_blank" href="public/files/nacionales/lista_de_documentos_a_presentar.pdf">Lista de documentos a presentar</a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="providers__column providers--international">
-        <img src="public/img/provider-international.svg" alt="Imagen Globo Mundo">
-        <h3>Internacionales</h3>
-        <h4>Internationals</h4>
-        <p>Organizaciones que no cuentan con una personería jurídica establecida en Costa Rica.</p>
-        <!--
-        <div class="providers__link">
-          <a target="_blank" href="https://micit.go.cr/registro-proveedores-internacionales-calificacion-profesional-concurso-2-3-1-20-3">Ir a Convocatoria</a>
-        </div>
-        -->
-        <div class="providers__documents">
-          <div class="providers__documents--title">Concurso 2-3-1-20-3</div>
-          <div class="providers__documents--button"><a href="#">Más información<i class="fas fa-chevron-down"></i></a></div>
-          <div class="providers__documents--content">
-            <div class="providers__documents--link__item">
-              <div class="icon"><i class="far fa-file-alt"></i></div>
-              <div class="link">
-                <a target="_blank" href="public/files/internacionales/es/bases_del_concurso_proveedores_internacionales_2-3-1-20-3.pdf">Bases del concurso 2-3-1-20-3</a>
-                <a target="_blank" href="public/files/internacionales/en/competition_rules_for_the_international_providers_registry_2-3-1-20-3.pdf">English Version</a>
-              </div>
-            </div>
-            <div class="providers__documents--link__item">
-              <div class="icon"><i class="far fa-file-alt"></i></div>
-              <div class="link">
-                <a target="_blank" href="public/files/internacionales/es/modificacion_a_convocatorias_de_proveedores_de_calificacion_profesional_pinn.pdf">Modificación de la&nbsp;convocatoria&nbsp;2-3-1-20-3</a>
-                <a target="_blank" href="public/files/internacionales/en/modification_to_calls_for_pinn_professional_qualification_providers.pdf">English Version</a>
-              </div>
-            </div>
-            <div class="providers__documents--link__item">
-              <div class="icon"><i class="far fa-file-alt"></i></div>
-              <div class="link">
-                <a target="_blank" href="public/files/internacionales/es/anexo_1-hoja_de_vida.docx">Anexo 1: Hoja de vida</a>
-                <a target="_blank" href="public/files/internacionales/en/annex_1-curriculum_vitae.docx">English Version</a>
-              </div>
-            </div>
-            <div class="providers__documents--link__item">
-              <div class="icon"><i class="far fa-file-alt"></i></div>
-              <div class="link">
-                <a target="_blank" href="public/files/internacionales/es/anexo_2-tabla_de_experiencia.docx">Anexo 2: Tabla de experiencia</a>
-                <a target="_blank" href="public/files/internacionales/en/annex_2-table_of_experience.rtf">English Version</a>
-              </div>
-            </div>
-            <div class="providers__documents--link__item">
-              <div class="icon"><i class="far fa-file-alt"></i></div>
-              <div class="link">
-                <a target="_blank" href="public/files/internacionales/es/anexo_3-declaracion_jurada.docx">Anexo 3: Declaración Jurada&nbsp;</a>
-                <a target="_blank" href="public/files/internacionales/en/annex_3-sworn_statement.docx">English Version</a>
-              </div>
-            </div>
-            <div class="providers__documents--link__item">
-              <div class="icon"><i class="far fa-file-alt"></i></div>
-              <div class="link">
-                <a target="_blank" href="public/files/internacionales/es/lista_de_documentos_a_presentar.pdf">Lista de documentos a presentar</a>
-                <a target="_blank" href="public/files/internacionales/en/documentation_list.pdf">English Version</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="providers__column providers--bootcamp">
-        <img src="public/img/provider-bootcamp.svg" alt="Imagen Bootcamp">
-        <h3>Bootcamps</h3>
-        <h4>Bootcamps</h4>
-        <p>Organizaciones nacionales e internacionales que brindan capacitaciones intensivas de aproximadamente 3 a 6 meses.</p>
-        <!--
-        <div class="providers__link">
-          <a target="_blank" href="https://www.micit.go.cr/23-registro-proveedores-bootcamps-concurso-2-3-1-20-1">Ir a Convocatoria</a>
-        </div>
-        -->
-        <div class="providers__documents">
-          <div class="providers__documents--title">Concurso 2-3-1-20-7</div>
-          <div class="providers__documents--button"><a href="#">Ver prórroga<i class="fas fa-chevron-down"></i></a></div>
-          <div class="providers__documents--content">
-            <div class="providers__documents--link__item">
-              <div class="icon"><i class="far fa-file-alt"></i></div>
-              <div class="link">
-                <a target="_blank" href="public/files/bootcamps/prorroga/es/bases_del_concurso_bootcamps_firmada_2-3-1-20-7.pdf">Bases de concurso 2-3-1-20-7</a>
-                <a target="_blank" href="public/files/bootcamps/prorroga/en/competition_rules_for_the_bootcamp_providers_registry_2-3-1-20-7.pdf">English version</a>
-              </div>
-            </div>
-            <div class="providers__documents--link__item">
-              <div class="icon"><i class="far fa-file-alt"></i></div>
-              <div class="link">
-                <a target="_blank" href="public/files/bootcamps/prorroga/es/modificacion_a_convocatorias_de_proveedores_de_calificacion_profesional_pinn.pdf">Modificación de la&nbsp;convocatoria&nbsp;2-3-1-20-7</a>
-                <a target="_blank" href="public/files/bootcamps/prorroga/en/modification_to_calls_for_pinn_professional _qualification_providers.pdf">English version</a>
-              </div>
-            </div>
-            <div class="providers__documents--link__item">
-              <div class="icon"><i class="far fa-file-alt"></i></div>
-              <div class="link">
-                <a target="_blank" href="public/files/bootcamps/prorroga/es/anexo_1-hoja_de_vida.docx">Anexo 1: Formulario hoja de vida</a>
-                <a target="_blank" href="public/files/bootcamps/prorroga/en/annex_1-curriculum_vitae.docx">English version</a>
-              </div>
-            </div>
-            <div class="providers__documents--link__item">
-              <div class="icon"><i class="far fa-file-alt"></i></div>
-              <div class="link">
-                <a target="_blank" href="public/files/bootcamps/prorroga/es/anexo_2-tabla_de_experiencia.docx">Anexo 2: Tabla de experiencia</a>
-                <a target="_blank" href="public/files/bootcamps/prorroga/en/annex_2-table_of_experience.docx">English version</a>
-              </div>
-            </div>
-            <div class="providers__documents--link__item">
-              <div class="icon"><i class="far fa-file-alt"></i></div>
-              <div class="link">
-                <a target="_blank" href="public/files/bootcamps/prorroga/es/anexo_3-declaracion_jurada.rtf">Anexo 3: Declaración jurada</a>
-                <a target="_blank" href="public/files/bootcamps/prorroga/en/annex_3-sworn_statement.docx">English version</a>
-              </div>
-            </div>
-            <div class="providers__documents--link__item">
-              <div class="icon"><i class="far fa-file-alt"></i></div>
-              <div class="link">
-                <a target="_blank" href="public/files/bootcamps/prorroga/es/lista_de_documentos_a_presentar.pdf">Lista de documentos a presentar</a>
-                <a target="_blank" href="public/files/bootcamps/prorroga/en/documentation_list.pdf">English version</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="providers__documents">
-          <div class="providers__documents--title">Concurso 2-3-1-20-1</div>
-          <div class="providers__documents--button"><a href="#">Primera convocatoria<i class="fas fa-chevron-down"></i></a></div>
-          <div class="providers__documents--content">
-            <div class="providers__documents--link__item">
-              <div class="icon"><i class="far fa-file-alt"></i></div>
-              <div class="link">
-                <a target="_blank" href="public/files/bootcamps/primera-convocatoria/es/bases_del_concurso_bootcamps_firmada_2-3-1-20-1.pdf">Bases de concurso 2-3-1-20-1</a>
-                <a target="_blank" href="public/files/bootcamps/primera-convocatoria/en/competition_rules_for_the_bootcamp_providers_registry_2-3-1-20-1.pdf">English version</a>
-              </div>
-            </div>
-            <div class="providers__documents--link__item">
-              <div class="icon"><i class="far fa-file-alt"></i></div>
-              <div class="link">
-                <a target="_blank" href="public/files/bootcamps/primera-convocatoria/es/modificacion_a_convocatorias_de_proveedores_de calificacion_profesional_pinn.pdf">Modificación de la&nbsp;convocatoria&nbsp;2-3-1-20-1</a>
-                <a target="_blank" href="public/files/bootcamps/primera-convocatoria/en/modification_to_calls_for_pinn_professional_qualification_providers.pdf">English version</a>
-              </div>
-            </div>
-            <div class="providers__documents--link__item">
-              <div class="icon"><i class="far fa-file-alt"></i></div>
-              <div class="link">
-                <a target="_blank" href="public/files/bootcamps/primera-convocatoria/es/anexo_1-hoja_de_vida.docx">Anexo 1: Formulario hoja de vida</a>
-                <a target="_blank" href="public/files/bootcamps/primera-convocatoria/en/annex_1-curriculum_vitae.docx">English version</a>
-              </div>
-            </div>
-            <div class="providers__documents--link__item">
-              <div class="icon"><i class="far fa-file-alt"></i></div>
-              <div class="link">
-                <a target="_blank" href="public/files/bootcamps/primera-convocatoria/es/anexo_2-tabla_de_experiencia.docx">Anexo 2: Tabla de experiencia</a>
-                <a target="_blank" href="public/files/bootcamps/primera-convocatoria/en/annex_2-table_of_experience.docx">English version</a>
-              </div>
-            </div>
-            <div class="providers__documents--link__item">
-              <div class="icon"><i class="far fa-file-alt"></i></div>
-              <div class="link">
-                <a target="_blank" href="public/files/bootcamps/primera-convocatoria/es/anexo_3-declaracion_jurada.docx">Anexo 3: Declaración jurada</a>
-                <a target="_blank" href="public/files/bootcamps/primera-convocatoria/en/annex_3-sworn_statement.docx">English version</a>
-              </div>
-            </div>
-            <div class="providers__documents--link__item">
-              <div class="icon"><i class="far fa-file-alt"></i></div>
-              <div class="link">
-                <a target="_blank" href="public/files/bootcamps/primera-convocatoria/es/lista_de_documentos_a_presentar.pdf">Lista de documentos a presentar</a>
-                <a target="_blank" href="public/files/bootcamps/primera-convocatoria/en/documentation_list.pdf">English version</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    <div class="providers__remark-content">
-      <h4>Debido a la situación de emergencia sanitaria nacional y con base en el Decreto Ejecutivo No.42227-MP-S del 16 de marzo se ha realizado una modificación para las siguientes convocatorias:</h4>
-      <ul class="margins">
-        <li>2-3-1-20-1 y 2-3-1-20-7 Registro de Proveedores de Bootcamps.</li>
-        <li>2-3-1-20-2 Registro de Proveedores internacionales de calificación profesional.</li>
-        <li>2-3-1-20-5 Registro de Proveedores nacionales  de calificación profesional.</li>
-      </ul>
-      <div class="highlighted">Dicha modificación la puede encontrar en el siguiente enlace: <a href="https://micit.go.cr/sites/default/files/modificacion_a_convocatorias_de_proveedores_de_calificacion_profesional_pinn.pdf" target="_blank">Modificación de las convocatorias</a>.</div>
-    </div>
-    <div class="providers__accordion js-accordion">
-      <div class="providers__accordion-heading js-heading">
-        <h4>Preguntas frecuentes</h4>
-      </div>
-      <div class="providers__accordion-content js-content">
-        <ol>
-          <li><b>¿Qué es el PINN?</b> El Programa de Innovación y Capital Humano para la Competitividad (PINN) surgió de la gestión de un préstamo entre el Gobierno de Costa Rica y el Banco Interamericano del Desarrollo, el cual tienen como objetivo aumentar la productividad del país mediante la formación de capital humano.</li>
-          <li><b>¿Qué tipo de organización puede ser considerado un proveedor?</b> Conformación de un registro de proveedores públicos, privados u organizaciones sin fines de lucro expertos en brindar capacitaciones, certificaciones y/o bootcamps.</li>
-          <li><b>¿Qué es un bootcamp?</b> Un bootcamp es un programa de educación continua que consiste en un entrenamiento intensivo en tecnologías digitales, con una duración aproximada de 3 a 6 meses, ya sea para la actualización y reentrenamiento de trabajadores, o como alternativa o complemento para jóvenes técnicos o no universitarios que buscan formación técnica especializada para mejorar su empleabilidad en empleos de calidad en industrias de alto valor agregado.</li>
-          <li><b>¿Qué es una certificación?</b> Es un certificado que se utiliza principalmente para demostrar el dominio de técnicas y competencias específicas utilizadas para lograr el mejoramiento de la calidad de procesos, productos y servicios.</li>
-          <li><b>¿Qué es un proveedor internacional?</b> Es aquel proveedor de capacitaciones y/o certificaciones que no cuenta con una personería jurídica establecida en Costa Rica</li>
-          <li><b>¿Qué es un proveedor nacional?</b> Es aquel proveedor de capacitaciones y/o certificaciones que cuenta con una personería jurídica establecida en Costa Rica</li>
-          <li><b>¿Cómo se compone el comité evaluador?</b> El comité evaluador estará constituido por cinco integrantes profesionales de las áreas de ciencia, tecnología, ingeniería e innovación, que tienen una formación profesional en estas áreas y cuentan con experiencia comprobada en el sector privado, así como conocimiento del mercado laboral.</li>
-          <li><b>¿Qué elementos se consideran como parte de la evaluación de los proveedores?</b> Los principales criterios de evaluación de las capacitaciones, certificaciones y bootcamps son la calidad del programa, la metodología de enseñanza, la experiencia comprobada con el sector privado y la racionalidad del precio.</li>
-        </ol>
-      </div>
+      <p>Actualmente no hay ninguna convocatoria para proveedores disponible.</p>
+      <p><a href="#">Ir a convocatorias pasadas</a></p>
     </div>
   </section>
-  <div id="section-progress" class="progress-section">
-    <h2 class="progress__title">¿Cuál es el proceso?</h2>
-    <div class="progress__inner">
-      <div class="progress__row">
-        <div class="progress__heading">
-          <h4>FASE 1</h4>
-          <span>3 semanas aprox.</span>
+  <section id="section-faqs" class="faqs">
+    <div class="faqs__heading">
+      <h2 class="faqs__title">Preguntas frecuentes</h2>
+    </div>
+    <div class="faqs__content">
+      <div class="faqs__accordion js-accordion">
+        <div class="faqs__accordion-heading js-heading open">
+          <h4>Oportunidades de Beca</h4>
         </div>
-        <div class="progress__content">
-          <div class="progress__column">Revisar la(s) </br><b>convocatoria(s)</b></br>para proveedores</div>
-          <div class="progress__column"><b>Completar</b> el</br> formulario</div>
-          <div class="progress__column"><b>Enviar documentación</br></b> proveedorespinn@cinde.org</div>
-        </div>
-      </div>
-      <div class="progress__row">
-        <div class="progress__heading">
-          <h4>FASE 2</h4>
-          <span>2 semanas aprox.</span>
-        </div>
-        <div class="progress__content">
-          <div class="progress__column"><b>Evaluación</b> de las</br> propuestas</br> (comité evaluador)</div>
-          <div class="progress__column"><b>Notificación</b> de aceptación de</br> las propuestas (CINDE)</div>
+        <div class="faqs__accordion-content js-content open">
+          <div id="react-app-faqs-scholarships"></div>
         </div>
       </div>
-      <div class="progress__row">
-        <div class="progress__heading">
-          <h4>FASE 3</h4>
-          <span>5 semanas aprox.</span>
+      <div class="faqs__accordion js-accordion">
+        <div class="faqs__accordion-heading js-heading">
+          <h4>Proveedores</h4>
         </div>
-        <div class="progress__content">
-          <div class="progress__column"><b>Apertura de la convocatoria</b> para beneficiarios</div>
-          <div class="progress__column"><b>Recepción y selección</b> de solicitudes</div>
-          <div class="progress__column"><b>Confirmación</b> a CINDE de los beneficiarios seleccionados</div>
-        </div>
-      </div>
-      <div class="progress__row">
-        <div class="progress__heading">
-          <h4>FASE 4</h4>
-          <span>4 semanas aprox.</span>
-        </div>
-        <div class="progress__content">
-          <div class="progress__column"><b>Programación</b> de las</br> capacitaciones y certificaciones</div>
-          <div class="progress__column">Adjudicación de los</br> <b>primeros beneficiarios</br></b> seleccionados</div>
-        </div>
-      </div>
-      <div class="progress__row">
-        <div class="progress__heading">
-          <h4>FASE 5</h4>
-        </div>
-        <div class="progress__content">
-          <div class="progress__column"><b>Inicio</b> de las</br> capacitaciones y</br> certificaciones</div>
-          <div class="progress__column"><b>Entrega del</br> reporte</b> final</br> del curso</div>
+        <div class="faqs__accordion-content js-content">
+          <div id="react-app-faqs-providers"></div>
         </div>
       </div>
     </div>
-  </div>
-  <section class="pre-footer-section">
-    <img class="banner__img" src="public/img/banner-footer.jpg" alt="Aumentar la productividad del país" title="Aumentar la productividad del país" aria-label="Aumentar la productividad del país">
-    <div class="pre-footer-section--content">"<b>Aumentar la productividad</b> del país mediante la formación de <b>capital humano</b>."</div>
   </section>
   <footer class="footer">
     <div class="footer__inner">
@@ -530,5 +328,10 @@
     </div>
   </footer>
   <script src="public/js/main.bundle.js"></script>
+  <!-- REACT APP -->
+  <script>!function(e){function r(r){for(var n,p,i=r[0],l=r[1],a=r[2],c=0,s=[];c<i.length;c++)p=i[c],Object.prototype.hasOwnProperty.call(o,p)&&o[p]&&s.push(o[p][0]),o[p]=0;for(n in l)Object.prototype.hasOwnProperty.call(l,n)&&(e[n]=l[n]);for(f&&f(r);s.length;)s.shift()();return u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,i=1;i<t.length;i++){var l=t[i];0!==o[l]&&(n=!1)}n&&(u.splice(r--,1),e=p(p.s=t[0]))}return e}var n={},o={1:0},u=[];function p(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,p),t.l=!0,t.exports}p.m=e,p.c=n,p.d=function(e,r,t){p.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},p.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},p.t=function(e,r){if(1&r&&(e=p(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(p.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)p.d(t,n,function(r){return e[r]}.bind(null,n));return t},p.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return p.d(r,"a",r),r},p.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},p.p="/";var i=this["webpackJsonppinn-app"]=this["webpackJsonppinn-app"]||[],l=i.push.bind(i);i.push=r,i=i.slice();for(var a=0;a<i.length;a++)r(i[a]);var f=l;t()}([])</script>
+  <script src="./public/react-app/build/static/js/2.e9525280.chunk.js"></script>
+  <script src="./public/react-app/build/static/js/main.3cf96a51.chunk.js"></script>
+  <!-- END REACT APP -->
 </body>
 </html>
