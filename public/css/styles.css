@@ -12903,6 +12903,7 @@ ol {
   margin-bottom: 30px;
   max-width: 680px; }
 
+/****************************** Accordion ******************************/
 .oportunities__accordion {
   background-color: #fff;
   margin-bottom: 10px; }
@@ -12946,6 +12947,22 @@ ol {
     padding-bottom: 20px;
     padding-top: 20px; }
 
+.js__accordion .js__accordion-heading.open:after {
+  transform: rotateX(180deg); }
+
+.js__accordion .js__accordion-content {
+  height: auto;
+  margin: 0 20px;
+  max-height: 0;
+  transition: max-height 0.25s, padding-top 0.25s;
+  overflow: hidden; }
+  .js__accordion .js__accordion-content.open {
+    border-top: 1px solid #dce9dd;
+    max-height: 1000px;
+    padding-bottom: 20px;
+    padding-top: 20px; }
+
+/****************************** End Accordion ******************************/
 .oportunities__coming-soon {
   display: flex;
   align-items: center;
