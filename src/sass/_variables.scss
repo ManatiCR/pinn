@@ -1,0 +1,28 @@
+/*------------
+--- Colors ---
+------------*/
+$white: #fff;
+$colors: (
+  'white': $white,
+);
+
+// Spaces.
+$spacing: (
+  s: 8px,
+  m: 16px,
+  l: 32px,
+  xl: 64px
+);
+
+$sizes: (
+  s: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+@mixin breakpoint($size) {
+  @media screen and (min-width: #{map-get($sizes, $size)}) {
+    @content;
+  }
+}
