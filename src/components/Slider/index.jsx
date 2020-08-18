@@ -1,30 +1,29 @@
-import React, { useRef, useState } from "react";
+import React, { useState, useRef } from "react";
 import "./Slider.scss";
 import bannerCapacitaciones from "./../../assets/banner-capacitaciones.jpg";
 import bannerCertificaciones from "./../../assets/banner-certificaciones.jpg";
 import bannerMercadoLaboral from "./../../assets/banner-mercado-laboral.jpg";
-import Slider from "react-slick";
-import Slide from "./Slide";
+import 'react-slideshow-image/dist/styles.css'
+import SlideItem from "./Slide";
+import { Slide } from 'react-slideshow-image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPause } from '@fortawesome/free-solid-svg-icons';
+import { faPlay } from '@fortawesome/free-solid-svg-icons';
+import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 // ToDo: Fix this correctly.
 function SliderComponent() {
   const sliderRef = useRef(null);
-  const sliderControlsRef = useRef(null);
-  const [activeSlide, setActiveState] = useState(0);
-  const settings = {
-    mobileFirst: true,
-    infinite: true,
-    autoplay: true,
-    autoplaySpeed: 6000,
-    fade: true,
-    speed: 600,
-    dots: false,
+  const [currentItem, setCurrentItem] = useState(1);
+  const [sliderAutoplay, setSliderAutoplay] = useState(true);
+  const slideProperties = {
     arrows: false,
-    afterChange: function (currentSlide) {
-      console.log(currentSlide);
-      setActiveState(currentSlide);
-    }
-  };
+    onChange: (prev, next) => {
+      setCurrentItem(next+1);
+    },
+    autoplay: sliderAutoplay
+  }
   const slides = [
     {
       img: bannerCapacitaciones,
@@ -52,10 +51,10 @@ function SliderComponent() {
   return (
     <section className="slider-section">
       <div className="slider-header">
-        <Slider {...settings} ref={sliderRef}>
+        <Slide {...slideProperties} ref={sliderRef}>
           {slides.map((slide, idx) => {
             return (
-              <Slide
+              <SlideItem
                 img={slide.img}
                 alt={slide.alt}
                 caption={slide.caption}
@@ -69,28 +68,35 @@ function SliderComponent() {
               />
             )
           })}
-        </Slider>
-        <div className="slider__controls" ref={sliderControlsRef}>
-          <ul className="slick-dots">
-            {slides.map(({caption}, idx) => {
-              console.log(idx);
-              return (
-                <li role="presentation" className={`${activeSlide === idx ? "slick-active" : ""}`}>
-                  <button
-                    type="button"
-                    role="tab"
-                    tabindex="-1"
-                    key={`link-slide-${idx}`}
-                    onClick={() => {
-                      sliderRef.current.slickGoTo(idx+1)
-                    }}
-                  >{caption}</button>
-                </li>
-              )
-            }) }
-          </ul>
-          <div className="position">
+        </Slide>
+        <div className="slider__controls">
+          <div className="slider__nav">
+            {slides.map(({ caption }, idx) => (
+              <button
+                key={`slide-button-${idx}`}
+                onClick={() => sliderRef.current.goTo(idx)}
+                className={currentItem-1 === idx ? "active" : ""}
+              >{caption}</button>
+            ))}
           </div>
+          <div className="position">
+            <span>{currentItem}/{slides.length}</span>
+          </div>
+          {sliderAutoplay ? (
+            <button className="slider__button" onClick={() => setSliderAutoplay(false)}>
+              <FontAwesomeIcon icon={faPause} />
+            </button>
+          ) : (
+            <button className="slider__button" onClick={() => setSliderAutoplay(true)}>
+              <FontAwesomeIcon icon={faPlay} />
+            </button>
+          )}
+          <button className="slider__button" onClick={() => sliderRef.current.goBack()}>
+            <FontAwesomeIcon icon={faChevronLeft} />
+          </button>
+          <button className="slider__button" onClick={() => sliderRef.current.goNext()}>
+            <FontAwesomeIcon icon={faChevronRight} />
+          </button>
         </div>
       </div>
     </section>

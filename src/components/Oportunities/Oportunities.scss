@@ -12,9 +12,15 @@
 }
 
 .oportunities {
-  background-color: #eff6fa;
+  background-color: #fff;
   flex: 1;
   padding: 60px 45px;
+}
+
+.oportunities__calls {
+  border-bottom: 1px solid #246fae;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .oportunities__title {
@@ -36,10 +42,96 @@
 }
 
 .oportunities__content {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 19px;
   margin-bottom: 30px;
   max-width: 680px;
+
+  a {
+    background-color: #fff;
+    border: 2.5px solid #2865AD;
+    color: #2865AD;
+    font-weight: 600;
+    padding: 13px 10px;
+    margin-top: 20px;
+  }
+
+  svg {
+    margin-left: 15px;
+  }
+}
+
+.oportunities__link {
+  display: flex;
+  padding-bottom: 40px;
+}
+
+.oportunities__calls--content__text {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.oportunities__calls--content__image {
+  flex: 0 0 20%;
+  height: 100%;
+  padding: 40px;
+  text-align: center;
+
+  img {
+    width: 110px;
+  }
+}
+
+.oportunities__calls--content__info {
+  padding: 30px 100px 30px 0;
+  max-width: 450px;
+
+  h4 {
+    font-size: 20px;
+    margin: 0 0 10px;
+  }
+
+  p {
+    margin: 0 0 10px;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+    font-weight: bold;
+
+    &.open {
+      svg {
+        transform: rotateY(90deg)
+      }
+    }
+  }
+
+  svg {
+    margin-left: 10px;
+  }
+}
+
+.oportunities__calls--content__extra {
+  padding: 40px 0;
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  li {
+    margin: 10px 0;
+  }
+
+  svg {
+    margin-right: 10px;
+  }
 }
 
 /****************************** Accordion ******************************/
@@ -161,22 +253,27 @@
 .oportunities__calls--content {
   color: #FFF;
   margin: 30px 0;
-  padding: 40px 80px;
   border-radius: 10px 10px 10px 10px;
-  -moz-border-radius: 10px 10px 10px 10px;
-  -webkit-border-radius: 10px 10px 10px 10px;
   border: 0px solid #000000;
+
+  &-open {
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 0;
+  }
 
   a {
     color: #FFF;
   }
 
-  .oportunities__calls--more_info a {
-    font-weight: bold;
-  }
+  .oportunities__calls--more_info {
+    padding-top: 20px;
 
-  .oportunities__calls--more_info i {
-    margin-left: 15px;
+    &--open {
+      svg {
+        transition: transform .4s;
+        transform: rotateX(180deg);
+      }
+    }
   }
 }
 
@@ -188,4 +285,120 @@
 }
 .scholarships--nationals {
   background: #2A7AB7;
+}
+
+.oportunities__result {
+  border: 3px solid #246fae;
+  border-radius: 0 0 10px 10px;
+  padding: 30px;
+
+  h4 {
+    cursor: pointer;
+    margin: 0;
+    padding: 20px 30px;
+  }
+
+  svg {
+    margin-right: 10px;
+  }
+}
+
+.oportunities__result__provider {
+  background-color: #e7f0f7;
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+  &--open {
+    svg {
+      transform: rotate(270deg)
+    }
+  }
+}
+
+.oportunities__result__courses {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 40px 20px 55px;
+
+  a {
+    flex: 1 0 46%;
+    color: #000;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    margin-right: 2%;
+  }
+}
+
+.oportunities__postcontent {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20px;
+
+  h3 {
+    color: #005ba9;
+  }
+}
+
+.oportunities__postcontent--documents {
+  flex: 1 0 100%;
+  border-right: 1px solid #b8d5e9;
+  padding-right: 40px;
+
+  @media screen and (min-width: 768px) {
+    flex: 0 0 50%;
+  }
+}
+
+.oportunities__postcontent--steps {
+  flex: 1 0 100%;
+  padding-left: 40px;
+
+  @media screen and (min-width: 768px) {
+    flex: 0 0 50%;
+  }
+}
+
+.oportunities__postcontent--document {
+  &:before {
+    background-color: #3781bf;
+    border-radius: 50%;
+    content: '';
+    display: inline-block;
+    height: 10px;
+    margin-right: 10px;
+    width: 10px;
+  }
+}
+
+.oportunities__postcontent--apply {
+  display: flex;
+  padding-bottom: 40px;
+
+  a {
+    background-color: #fff;
+    border: 2.5px solid #2865AD;
+    color: #2865AD;
+    font-weight: 600;
+    padding: 13px 10px;
+    margin-top: 20px;
+  }
+
+
+  svg {
+    margin-left: 15px;
+  }
+}
+
+.oportunities__postcontent--step {
+  display: flex;
+
+  @media screen and (min-width: 768px) {
+    max-width: 450px;
+  }
+
+  span {
+    font-weight: bold;
+    color: #2865AD;
+    margin-right: 20px;
+  }
 }

@@ -1,3 +1,12 @@
+.faqs {
+  padding: 70px 50px;
+}
+
+.faqs__title {
+  text-transform: uppercase;
+  margin: 0;
+}
+
 .faqs__accordion {
   background-color: #fff;
   margin-bottom: 10px;
@@ -6,55 +15,70 @@
 .faqs__accordion-heading {
   align-items: center;
   background-color: #fff;
+  cursor: pointer;
   display: flex;
   justify-content: space-between;
+  margin-top: 24px;
   padding: 20px 24px;
 
   h4 {
-    font-weight: normal;
     font-size: 18px;
     line-height: 25px;
-    margin-bottom: 0;
+    margin: 0;
   }
 
-  &:after {
-    border-left: 7px solid transparent;
-    border-right: 7px solid transparent;
-    border-top: 12px solid #439552;
-    content: '';
-    height: 0;
-    width: 0;
-    transition: transform .4s;
+  svg {
+    margin-right: 20px;
   }
 
-  &.open {
-    &:after {
-      transform: rotateX(180deg);
+  &--open {
+    svg {
+      transition: transform .4s;
+      transform: rotate(90deg);
     }
   }
 }
 
+.faqs__accordion-scholarship {
+  background-color: #ebf5fa;
+
+  svg {
+    color: #005baa;
+  }
+}
+
 .faqs__accordion-content {
-  height: auto;
-  margin: 0 20px;
-  max-height: 0;
-  transition: max-height 0.25s, padding-top 0.25s;
-  overflow: hidden;
+  padding: 20px 15% 20px 20px;
+
+  ol,
+  ul,
+  p {
+    margin-top: 0;
+  }
 
   li {
-    font-size: 14px;
-    line-height: 19px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
   }
 
-  &.open {
-    border-top: 1px solid #c5d9ea;
-    max-height: 3000px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-
-    @media screen and (min-width: 768px) {
-      max-height: 1000px;
-    }
+  b {
+    font-weight: bold;
   }
+}
+
+.faqs__accordion-content--scholarship {
+  background-color: #ebf5fa;
+}
+
+
+.faqs__accordion-providers {
+  background-color: #e1f1e9;
+
+  svg {
+    color: #178246;
+  }
+}
+
+.faqs__accordion-content--providers {
+  background-color: #e1f1e9;
 }
