@@ -14,6 +14,8 @@ import bannerAumentarProductividad1 from "./assets/banner-aumentar-productividad
 import bannerAumentarProductividad2 from "./assets/banner-aumentar-productividad-2.jpg";
 
 function App() {
+  const apiUrl = "https://ops829p-ttp.pantheonsite.io/pinn";
+
   return (
     <>
       <Menu />
@@ -32,7 +34,9 @@ function App() {
         }
         boxBackground="light-blue"
       />
-      <Oportunities />
+      <Oportunities
+        apiUrl={apiUrl}
+      />
       <Banner
         image={bannerAumentarProductividad2}
         content={
@@ -43,7 +47,9 @@ function App() {
         boxBackground="light-green"
       />
       <Providers />
-      <Faq />
+      <Faq
+        apiUrl={apiUrl}
+      />
       <Footer />
     </>
   );
