@@ -15,6 +15,23 @@ function Accordion(props) {
   } = props;
   const [accordionState, setAccordionState] = useState(false);
 
+  const buildExtraLinks = ( linksOfInterest ) => {
+    if (linksOfInterest.length > 0) {
+      return (
+        <div className="oportunities__calls--content__extra">
+          <b>Enlaces de interés</b>
+          <ul>
+            { linksOfInterest.map((link, idx) => (
+              <li key={`linkOfInterest-${idx}`}>
+                <a href={link.url} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faFileAlt} /> {link.text}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      );
+    }
+  };
+
   return (
     <>
       <div className={`oportunities__calls--content ${extraClasses} scholarships--bootcamps ${accordionState ? "oportunities__calls--content-open" : ""}`}>
@@ -29,16 +46,7 @@ function Accordion(props) {
               <button onClick={() => { setAccordionState(!accordionState) }}>Más información <FontAwesomeIcon icon={faChevronDown} /> </button>
             </div>
           </div>
-          <div className="oportunities__calls--content__extra">
-            <b>Enlaces de interés</b>
-            <ul>
-              { linksOfInterest.map((link, idx) => (
-                <li key={`linkOfInterest-${idx}`}>
-                  <a href={link.url} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faFileAlt} /> {link.text}</a>
-                </li>
-              ))}
-            </ul>
-          </div>
+          { buildExtraLinks(linksOfInterest) }
         </div>
       </div>
       {accordionState && (
