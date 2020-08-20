@@ -9,8 +9,8 @@ function Faq({ apiUrl }) {
   const [providersState, setProvidersState] = useState(false);
   const [faqScholarshipData, setfaqScholarshipData] = useState("");
   const [faqProvidersData, setfaqProvidersData] = useState("");
-  const faqScholarshipAPI = `${apiUrl}?component=36`;
-  const faqProvidersAPI = `${apiUrl}?component=35`;
+  const faqScholarshipAPI = `${apiUrl}?component=35`;
+  const faqProvidersAPI = `${apiUrl}?component=36`;
 
   useEffect(() => {
     fetch(faqScholarshipAPI).then(resolve => {
