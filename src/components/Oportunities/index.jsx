@@ -88,7 +88,10 @@ function Oportunities({ apiUrl }) {
           <p>Puede conocer los cursos disponibles en el Registro de Proveedores de Certificaciones y Capacitaciones disponible en este sitio. Cada una de las ofertas académicas disponibles cuentan con requerimientos específicos que dependen del tipo de capacitación y certificación, los cuales deben ser de consideración para los posibles beneficiarios antes de realizar la solicitud de financiamiento.</p>
           {/* ToDo: Fix invalid links in the whole component */}
           {/* ToDo: Separate this in diferent components */}
-          <p className="oportunities__link"><a href="https://www.google.com/">Solicitar Beca <FontAwesomeIcon icon={faPlay} /> </a></p>
+          {
+            /* Hide this link because was moved into each call. */
+            /* <p className="oportunities__link"><a href="https://www.google.com/">Solicitar Beca <FontAwesomeIcon icon={faPlay} /> </a></p> */
+          }
         </div>
         <div className="oportunities__calls">
           <Accordion

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
+import { faPlay } from '@fortawesome/free-solid-svg-icons';
 import AccordionItem from "./AccordionItem";
 
 function Accordion(props) {
@@ -27,6 +28,9 @@ function Accordion(props) {
               </li>
             ))}
           </ul>
+          <p className="oportunities__link--apply">
+            <a href="https://cinde.us8.list-manage.com/subscribe?u=42e7541b8cd3dbc87e97b934f&id=fafa27496f" rel="noopener noreferrer" target="_target">Solicitar Beca <FontAwesomeIcon icon={faPlay} /> </a>
+          </p>
         </div>
       );
     }
