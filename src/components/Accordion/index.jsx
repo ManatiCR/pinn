@@ -47,7 +47,7 @@ function Accordion(props) {
             <h4>{title}</h4>
             <p>{content}</p>
             <div className={`oportunities__calls--more_info ${accordionState ? "oportunities__calls--more_info--open" : ""}`}>
-              <button onClick={() => { setAccordionState(!accordionState) }}>Más información <FontAwesomeIcon icon={faChevronDown} /> </button>
+              <button onClick={() => { setAccordionState(!accordionState) }}>Ver proveedores <FontAwesomeIcon icon={faChevronDown} /> </button>
             </div>
           </div>
           { buildExtraLinks(linksOfInterest) }
