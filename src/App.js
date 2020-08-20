@@ -14,7 +14,7 @@ import bannerAumentarProductividad1 from "./assets/banner-aumentar-productividad
 import bannerAumentarProductividad2 from "./assets/banner-aumentar-productividad-2.jpg";
 
 function App() {
-  const apiUrl = "https://ops829p-ttp.pantheonsite.io/pinn";
+  const apiUrl = "https://www.thetalentplace.cr/pinn";
 
   return (
     <>
