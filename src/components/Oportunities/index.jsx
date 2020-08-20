@@ -97,7 +97,7 @@ function Oportunities({ apiUrl }) {
           <Accordion
             extraClasses="scholarships--bootcamps"
             image={providerBootcampImg}
-            title="Boot Camps"
+            title="Bootcamps"
             content="Organizaciones nacionales e internacionales que brindan capacitaciones intensivas de aproximadamente 3 a 6 meses."
             linksOfInterest={[
               {
