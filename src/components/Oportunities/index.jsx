@@ -102,7 +102,7 @@ function Oportunities({ apiUrl }) {
             linksOfInterest={[
               {
                 url: bootcampsAnnexed1,
-                text: "Anexo 1 - Hoja de vida"
+                text: "Anexo 1: Hoja de vida"
               },
               {
                 url: bootcampsAnnexed2,
