@@ -154,7 +154,7 @@ function Oportunities({ apiUrl }) {
           </div>
           <div className="oportunities__postcontent--steps">
             <h3>Pasos para presentar la documentación</h3>
-            {stepsData && stepsData.map((step, idx) => <p key={`step-${idx}`} className="oportunities__postcontent--step"><span>{idx}.</span>{step.node.title}</p>)}
+            {stepsData && stepsData.map((step, idx) => <p key={`step-${idx}`} className="oportunities__postcontent--step"><span>{idx + 1}.</span>{step.node.title}</p>)}
           </div>
         </div>
       </div>
