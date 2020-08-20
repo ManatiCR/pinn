@@ -15,9 +15,13 @@ function Accordion(props) {
       <h4 onClick={() => setProviderState1(!providerState1)}><FontAwesomeIcon icon={faChevronRight} />{ title }</h4>
       {providerState1 && (
         <div className="oportunities__result__courses">
-          { courses.map(course => (
-            <a href={course.node.link}>{course.node.title}</a>
-          )) }
+          { courses.map( (course, index) => (
+                course.node.link
+                ? ( <a href={course.node.link} key={`course-${index}`} rel="noopener noreferrer" target="_blank">{course.node.title}</a> )
+                : ( <span key={`course-${index}`}>{course.node.title}</span> )
+              )
+            )
+          }
         </div>
       )}
     </div>

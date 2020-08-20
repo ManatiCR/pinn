@@ -143,9 +143,14 @@ function Oportunities({ apiUrl }) {
           <div className="oportunities__postcontent--documents">
             <h3>Cuáles documentos debo presentar</h3>
             {documentsData && documentsData.map((document, idx) => <p key={`document-${idx}`} className="oportunities__postcontent--document">{document.node.title}</p>)}
-            <div className="oportunities__postcontent--apply">
-              <a href="https://www.google.com/">Iniciar aplicación <FontAwesomeIcon icon={faPlay} /></a>
-            </div>
+            {
+              /* Hide this link because was moved into each call. */
+              /*
+              <div className="oportunities__postcontent--apply">
+                <a href="https://www.google.com/">Iniciar aplicación <FontAwesomeIcon icon={faPlay} /></a>
+              </div>
+              */
+            }
           </div>
           <div className="oportunities__postcontent--steps">
             <h3>Pasos para presentar la documentación</h3>
