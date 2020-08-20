@@ -7,6 +7,11 @@ import { faPlay } from '@fortawesome/free-solid-svg-icons';
 import Accordion from "./../Accordion";
 import "./Oportunities.scss";
 
+/* Import the files. */
+import bootcampsAnnexed1 from "./../../assets/files/oportunities/bootcamps/anexo-1-hoja-de-vida-bootcamps.docx";
+import bootcampsAnnexed2 from "./../../assets/files/oportunities/bootcamps/anexo-2-declaracion-jurada-bootcamps.docx";
+import bootcampsAnnexed3 from "./../../assets/files/oportunities/bootcamps/anexo-3-consentimiento-informado-bootcamps.docx";
+
 function Oportunities({ apiUrl }) {
   const bootcampsAPI = `${apiUrl}/scholarships?component=30`;
   const internationalsAPI = `${apiUrl}/scholarships?component=31`;
@@ -93,16 +98,16 @@ function Oportunities({ apiUrl }) {
             content="Organizaciones nacionales e internacionales que brindan capacitaciones intensivas de aproximadamente 3 a 6 meses."
             linksOfInterest={[
               {
-                url: "https://www.google.com/",
-                text: "Convocatoria"
+                url: bootcampsAnnexed1,
+                text: "Anexo 1 - Hoja de vida"
               },
               {
-                url: "https://www.google.com/",
-                text: "Anexo 1"
+                url: bootcampsAnnexed2,
+                text: "Anexo 2: Declaración jurada"
               },
               {
-                url: "https://www.google.com/",
-                text: "Anexo 2"
+                url: bootcampsAnnexed3,
+                text: "Anexo 3: Consentimiento informado"
               }
             ]}
             items={bootCampsData}
@@ -112,20 +117,9 @@ function Oportunities({ apiUrl }) {
             extraClasses="scholarships--internationals"
             image={providerInternationalImg}
             title="Internacionales"
-            content="Organizaciones nacionales e internacionales que brindan capacitaciones intensivas de aproximadamente 3 a 6 meses."
+            content="Más información muy pronto."
             linksOfInterest={[
-              {
-                url: "https://www.google.com/",
-                text: "Convocatoria"
-              },
-              {
-                url: "https://www.google.com/",
-                text: "Anexo 1"
-              },
-              {
-                url: "https://www.google.com/",
-                text: "Anexo 2"
-              }
+
             ]}
             items={internationalsData}
             key="accordion-internationals"
@@ -134,20 +128,9 @@ function Oportunities({ apiUrl }) {
             extraClasses="scholarships--nationals"
             image={providerNationalImg}
             title="Nacionales"
-            content="Organizaciones nacionales e internacionales que brindan capacitaciones intensivas de aproximadamente 3 a 6 meses."
+            content="Más información muy pronto."
             linksOfInterest={[
-              {
-                url: "https://www.google.com/",
-                text: "Convocatoria"
-              },
-              {
-                url: "https://www.google.com/",
-                text: "Anexo 1"
-              },
-              {
-                url: "https://www.google.com/",
-                text: "Anexo 2"
-              }
+
             ]}
             items={nationalsData}
             key="accordion-nationals"
