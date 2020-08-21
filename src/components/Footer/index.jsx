@@ -25,7 +25,7 @@ function Footer() {
               <div className="footer__contact-phones-list">
                 <a href="tel:22012814">2201-2814</a>
                 <a href="tel:22012833">2201-2833</a>
-                <a href="tel:22012889">2201-2889</a>
+                <a href="tel:22012856">2201-2856</a>
               </div>
             </div>
             <div className="footer__contact-item">
