@@ -1,4 +1,5 @@
 {
+  "_comment": "[test env] => https://manaticr.github.io/pinn && [test live] => https://becasmicitt.com",
   "homepage": "https://manaticr.github.io/pinn",
   "name": "pinn-site",
   "version": "0.1.0",
