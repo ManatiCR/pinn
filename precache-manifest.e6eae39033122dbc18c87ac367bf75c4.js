@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c3f755e05942ac825ba7cda3de8f1fb4",
+    "revision": "2f6bb5e04428d82617b1a6ffaa3d98b6",
     "url": "/pinn/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pinn/static/css/2.1a8daee9.chunk.css"
   },
   {
-    "revision": "87076e258737567548ed",
+    "revision": "68d1f98d15fbeb0a85b5",
     "url": "/pinn/static/css/main.f7d58e49.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pinn/static/js/2.271ac915.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "87076e258737567548ed",
-    "url": "/pinn/static/js/main.16cdbf53.chunk.js"
+    "revision": "68d1f98d15fbeb0a85b5",
+    "url": "/pinn/static/js/main.f3f09c36.chunk.js"
   },
   {
     "revision": "f7edeb1f75f6e92255e5",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pinn/static/media/anexo-1-hoja-de-vida-bootcamps.6b4f8b00.docx"
   },
   {
-    "revision": "db6dbadad14274defb2ced2e5870cdfc",
-    "url": "/pinn/static/media/anexo-2-declaracion-jurada-bootcamps.db6dbada.docx"
+    "revision": "5b6ffbdb9ed13408e7e3abd3b690033a",
+    "url": "/pinn/static/media/anexo-2-declaracion-jurada-bootcamps.5b6ffbdb.docx"
   },
   {
     "revision": "6a0cce4a9e1d0989e8e67d6faf1108ed",
