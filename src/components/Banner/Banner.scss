@@ -19,7 +19,7 @@
   width: 100%;
 
   @media screen and (min-width: 768px) {
-    object-fit: none;
+    object-fit: contain;
     object-position: center;
     min-height: auto;
   }
