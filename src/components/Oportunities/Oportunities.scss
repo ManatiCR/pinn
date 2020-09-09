@@ -14,7 +14,11 @@
 .oportunities {
   background-color: #fff;
   flex: 1;
-  padding: 60px 45px;
+  padding: 40px 30px;
+
+  @media screen and (min-width: 768px) {
+    padding: 60px 45px;
+  }
 }
 
 .oportunities__calls {
@@ -67,9 +71,18 @@
 }
 
 .oportunities__calls--content__text {
-  align-items: flex-start;
+  align-items: center;
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
+  padding: 0 20px;
+
+  @media screen and (min-width: 768px) {
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0;
+  }
 }
 
 .oportunities__calls--content__image {
@@ -84,8 +97,16 @@
 }
 
 .oportunities__calls--content__info {
-  padding: 30px 100px 30px 0;
-  max-width: 450px;
+  padding: 0 0 20px 0;
+
+  @media screen and (min-width: 768px) {
+    max-width: 450px;
+    padding: 30px 30px 30px 0;
+  }
+
+  @media screen and (min-width: 992px) {
+    padding: 30px 100px 30px 0;
+  }
 
   h4 {
     font-size: 20px;
@@ -119,6 +140,17 @@
 
 .oportunities__calls--content__extra {
   padding: 40px 0;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    padding: 40px 20px 40px 0;
+    width: 100%;
+  }
+
+  @media screen and (min-width: 992px) {
+    padding: 40px 0;
+    width: auto;
+  }
 
   ul {
     list-style: none;
@@ -337,18 +369,26 @@
   padding: 20px 40px 20px 55px;
 
   a {
-    flex: 1 0 46%;
+    flex: 1 0 98%;
     color: #000;
     text-decoration: underline;
     margin-bottom: 10px;
-    margin-right: 2%;
+
+    @media screen and (min-width: 768px) {
+      flex: 1 0 46%;
+      margin-right: 2%;
+    }
   }
 }
 
 .oportunities__postcontent {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 20px;
+  padding: 0;
+
+  @media screen and (min-width: 768px) {
+    padding: 0 20px;
+  }
 
   h3 {
     color: #005ba9;
@@ -357,20 +397,21 @@
 
 .oportunities__postcontent--documents {
   flex: 1 0 100%;
-  border-right: 1px solid #b8d5e9;
-  padding-right: 40px;
+  border-bottom: 1px solid #b8d5e9;
 
   @media screen and (min-width: 768px) {
+    border-right: 1px solid #b8d5e9;
     flex: 0 0 50%;
+    padding-right: 40px;
   }
 }
 
 .oportunities__postcontent--steps {
   flex: 1 0 100%;
-  padding-left: 40px;
 
   @media screen and (min-width: 768px) {
     flex: 0 0 50%;
+    padding-left: 40px;
   }
 }
 

@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 import providerBootcampImg from "./../../assets/provider-bootcamp.svg";
 import providerInternationalImg from "./../../assets/provider-international.svg";
 import providerNationalImg from "./../../assets/provider-national.svg";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlay } from '@fortawesome/free-solid-svg-icons';
 import Accordion from "./../Accordion";
 import "./Oportunities.scss";
 
