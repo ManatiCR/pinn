@@ -5,6 +5,11 @@
   max-width: 1440px;
   margin: 0 auto;
   padding: 25px 40px;
+  flex-direction: column;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
 }
 
 .nav__logo img {
@@ -42,14 +47,25 @@
 }
 
 .nav__logos {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 20px;
   text-align: center;
+  width: 100%;
 
   @media screen and (min-width: 768px) {
+    display: block;
+    padding-top: 0;
     text-align: left;
+    width: auto;
   }
 
   img {
     margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
 
     @media screen and (min-width: 768px) {
       margin-bottom: 0;

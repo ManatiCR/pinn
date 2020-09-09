@@ -6,11 +6,16 @@
 .footer__inner {
   align-items: center;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1440px;
   padding: 0 45px;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
 }
 
 .footer__logo {
@@ -61,13 +66,23 @@
 }
 
 .footer__contact {
-  @media screen and (min-width: 500px) {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+
+
+  @media screen and (min-width: 576px) {
+    flex-direction: row;
     padding-left: 20px;
   }
 
   @media screen and (min-width: 768px) {
+    display: block;
     min-width: 440px;
     padding-left: 44px;
+    width: auto;
   }
 }
 
@@ -103,12 +118,28 @@
       font-size: 12px;
       margin-bottom: 0;
     }
+
+    a {
+      color: #005ba9;
+      display: block;
+      transition: color .4s;
+
+      &:hover {
+        color: #408CC6;
+      }
+    }
   }
 }
 
 .footer__contact-phones-list {
   a {
+    color: #005ba9;
     display: block;
+    transition: color .4s;
+
+    &:hover {
+      color: #408CC6;
+    }
   }
 }
 

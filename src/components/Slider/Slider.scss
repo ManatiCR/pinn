@@ -64,14 +64,19 @@
   background-color: #3a9659;
   box-shadow: -20px -20px 0px 0px rgba(169, 203, 46,1);
   color: #ffffff;
-  left: 60px;
+  left: 25px;
   opacity: 0.9;
-  padding: 20px 25px 35px;
+  padding: 15px 15px 25px;
   position: absolute;
   top: 60%;
   transform: translateY(-50%);
   width: 350px;
   z-index: 2;
+
+  @media screen and (min-width: 768px) {
+    left: 60px;
+    padding: 20px 25px 35px;
+  }
 
   p {
     font-size: 19px;
