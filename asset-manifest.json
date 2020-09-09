@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pinn/static/css/main.d9eeeb74.chunk.css",
+    "main.css": "/pinn/static/css/main.68b449ec.chunk.css",
     "main.js": "/pinn/static/js/main.375b1654.chunk.js",
     "main.js.map": "/pinn/static/js/main.375b1654.chunk.js.map",
     "runtime-main.js": "/pinn/static/js/runtime-main.4860800a.js",
@@ -9,10 +9,10 @@
     "static/js/2.271ac915.chunk.js": "/pinn/static/js/2.271ac915.chunk.js",
     "static/js/2.271ac915.chunk.js.map": "/pinn/static/js/2.271ac915.chunk.js.map",
     "index.html": "/pinn/index.html",
-    "precache-manifest.26416d51c5c6416d0ce34464f5753efa.js": "/pinn/precache-manifest.26416d51c5c6416d0ce34464f5753efa.js",
+    "precache-manifest.b54b45f2f3ca9378f5c4e66efc00a911.js": "/pinn/precache-manifest.b54b45f2f3ca9378f5c4e66efc00a911.js",
     "service-worker.js": "/pinn/service-worker.js",
     "static/css/2.1a8daee9.chunk.css.map": "/pinn/static/css/2.1a8daee9.chunk.css.map",
-    "static/css/main.d9eeeb74.chunk.css.map": "/pinn/static/css/main.d9eeeb74.chunk.css.map",
+    "static/css/main.68b449ec.chunk.css.map": "/pinn/static/css/main.68b449ec.chunk.css.map",
     "static/js/2.271ac915.chunk.js.LICENSE.txt": "/pinn/static/js/2.271ac915.chunk.js.LICENSE.txt",
     "static/media/anexo-1-hoja-de-vida-bootcamps.docx": "/pinn/static/media/anexo-1-hoja-de-vida-bootcamps.6b4f8b00.docx",
     "static/media/anexo-2-declaracion-jurada-bootcamps.docx": "/pinn/static/media/anexo-2-declaracion-jurada-bootcamps.5b6ffbdb.docx",
@@ -38,7 +38,7 @@
     "static/js/runtime-main.4860800a.js",
     "static/css/2.1a8daee9.chunk.css",
     "static/js/2.271ac915.chunk.js",
-    "static/css/main.d9eeeb74.chunk.css",
+    "static/css/main.68b449ec.chunk.css",
     "static/js/main.375b1654.chunk.js"
   ]
 }
