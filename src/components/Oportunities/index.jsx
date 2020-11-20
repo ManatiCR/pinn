@@ -9,9 +9,12 @@ import "./Oportunities.scss";
 import bootcampsAnnexed1 from "./../../assets/files/oportunities/bootcamps/anexo-1-hoja-de-vida-bootcamps.docx";
 import bootcampsAnnexed2 from "./../../assets/files/oportunities/bootcamps/anexo-2-declaracion-jurada-bootcamps.docx";
 import bootcampsAnnexed3 from "./../../assets/files/oportunities/bootcamps/anexo-3-consentimiento-informado-bootcamps.docx";
-import internationalsAnnexed1 from "./../../assets/files/oportunities/internacionales/anexo-1-hoja-de-vida-beneficiarios internacionales.docx";
+import internationalsAnnexed1 from "./../../assets/files/oportunities/internacionales/anexo-1-hoja-de-vida-beneficiarios-internacionales.docx";
 import internationalsAnnexed2 from "./../../assets/files/oportunities/internacionales/anexo-2-declaracion-jurada-beneficiarios-internacionales.docx";
 import internationalsAnnexed3 from "./../../assets/files/oportunities/internacionales/anexo-3-consentimiento-informado-beneficiarios-internacionales.docx";
+import nationalsAnnexed1 from "./../../assets/files/oportunities/nacionales/anexo-1-hoja-de-vida-beneficiarios-nacionales.docx";
+import nationalsAnnexed2 from "./../../assets/files/oportunities/nacionales/anexo-2-declaracion-jurada-beneficiarios-nacionales.docx";
+import nationalsAnnexed3 from "./../../assets/files/oportunities/nacionales/anexo-3-consentimiento-informado-beneficiarios-nacionales.docx";
 
 function Oportunities({ apiUrl }) {
   const bootcampsAPI = `${apiUrl}/scholarships?component=30`;
@@ -111,6 +114,7 @@ function Oportunities({ apiUrl }) {
             items={bootCampsData}
             key="accordion-bootcamps"
             applyLink=""
+            closeText="Convocatoria cerrada"
           />
           <Accordion
             extraClasses="scholarships--internationals"
@@ -134,18 +138,31 @@ function Oportunities({ apiUrl }) {
             items={internationalsData}
             key="accordion-internationals"
             applyLink=""
+            closeText="Próximamente"
           />
           <Accordion
             extraClasses="scholarships--nationals"
             image={providerNationalImg}
             title="Nacionales"
-            content="Más información muy pronto."
+            content="Organizaciones nacionales que brindan capacitaciones y/o certificaciones."
             linksOfInterest={[
-
+              {
+                url: nationalsAnnexed1,
+                text: "Anexo 1: Hoja de vida"
+              },
+              {
+                url: nationalsAnnexed2,
+                text: "Anexo 2: Declaración jurada"
+              },
+              {
+                url: nationalsAnnexed3,
+                text: "Anexo 3: Consentimiento informado"
+              }
             ]}
             items={nationalsData}
             key="accordion-nationals"
             applyLink=""
+            closeText="Próximamente"
           />
         </div>
         <div className="oportunities__postcontent">

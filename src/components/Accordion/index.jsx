@@ -13,7 +13,8 @@ function Accordion(props) {
     content,
     linksOfInterest,
     items,
-    applyLink
+    applyLink,
+    closeText
   } = props;
   const [accordionState, setAccordionState] = useState(false);
 
@@ -36,7 +37,7 @@ function Accordion(props) {
               </p>
             ) : (
               <p className="oportunities__link--apply">
-                <a>Convocatoria cerrada</a>
+                <a>{closeText}</a>
               </p>
             )
           }
