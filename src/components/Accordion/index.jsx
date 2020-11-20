@@ -12,7 +12,8 @@ function Accordion(props) {
     title,
     content,
     linksOfInterest,
-    items
+    items,
+    applyLink
   } = props;
   const [accordionState, setAccordionState] = useState(false);
 
@@ -28,9 +29,17 @@ function Accordion(props) {
               </li>
             ))}
           </ul>
-          <p className="oportunities__link--apply">
-            <a href="https://cinde.us8.list-manage.com/subscribe?u=42e7541b8cd3dbc87e97b934f&id=fafa27496f" rel="noopener noreferrer" target="_target">Solicitar Beca <FontAwesomeIcon icon={faPlay} /> </a>
-          </p>
+          {
+            (applyLink) ? (
+              <p className="oportunities__link--apply">
+                <a href={applyLink} rel="noopener noreferrer" target="_target">Solicitar Beca <FontAwesomeIcon icon={faPlay} /> </a>
+              </p>
+            ) : (
+              <p className="oportunities__link--apply">
+                <a>Convocatoria cerrada</a>
+              </p>
+            )
+          }
         </div>
       );
     }

@@ -9,6 +9,9 @@ import "./Oportunities.scss";
 import bootcampsAnnexed1 from "./../../assets/files/oportunities/bootcamps/anexo-1-hoja-de-vida-bootcamps.docx";
 import bootcampsAnnexed2 from "./../../assets/files/oportunities/bootcamps/anexo-2-declaracion-jurada-bootcamps.docx";
 import bootcampsAnnexed3 from "./../../assets/files/oportunities/bootcamps/anexo-3-consentimiento-informado-bootcamps.docx";
+import internationalsAnnexed1 from "./../../assets/files/oportunities/internacionales/anexo-1-hoja-de-vida-beneficiarios internacionales.docx";
+import internationalsAnnexed2 from "./../../assets/files/oportunities/internacionales/anexo-2-declaracion-jurada-beneficiarios-internacionales.docx";
+import internationalsAnnexed3 from "./../../assets/files/oportunities/internacionales/anexo-3-consentimiento-informado-beneficiarios-internacionales.docx";
 
 function Oportunities({ apiUrl }) {
   const bootcampsAPI = `${apiUrl}/scholarships?component=30`;
@@ -113,17 +116,30 @@ function Oportunities({ apiUrl }) {
             ]}
             items={bootCampsData}
             key="accordion-bootcamps"
+            applyLink=""
           />
           <Accordion
             extraClasses="scholarships--internationals"
             image={providerInternationalImg}
             title="Internacionales"
-            content="Más información muy pronto."
+            content="Organizaciones internacionales que brindan capacitaciones y/o certificaciones."
             linksOfInterest={[
-
+              {
+                url: internationalsAnnexed1,
+                text: "Anexo 1: Hoja de vida"
+              },
+              {
+                url: internationalsAnnexed2,
+                text: "Anexo 2: Declaración jurada"
+              },
+              {
+                url: internationalsAnnexed3,
+                text: "Anexo 3: Consentimiento informado"
+              }
             ]}
             items={internationalsData}
             key="accordion-internationals"
+            applyLink="http://eepurl.com/hi0lyP"
           />
           <Accordion
             extraClasses="scholarships--nationals"
@@ -135,6 +151,7 @@ function Oportunities({ apiUrl }) {
             ]}
             items={nationalsData}
             key="accordion-nationals"
+            applyLink=""
           />
         </div>
         <div className="oportunities__postcontent">
