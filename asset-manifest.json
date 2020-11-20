@@ -1,21 +1,24 @@
 {
   "files": {
     "main.css": "/pinn/static/css/main.68b449ec.chunk.css",
-    "main.js": "/pinn/static/js/main.375b1654.chunk.js",
-    "main.js.map": "/pinn/static/js/main.375b1654.chunk.js.map",
+    "main.js": "/pinn/static/js/main.ab716500.chunk.js",
+    "main.js.map": "/pinn/static/js/main.ab716500.chunk.js.map",
     "runtime-main.js": "/pinn/static/js/runtime-main.4860800a.js",
     "runtime-main.js.map": "/pinn/static/js/runtime-main.4860800a.js.map",
     "static/css/2.1a8daee9.chunk.css": "/pinn/static/css/2.1a8daee9.chunk.css",
-    "static/js/2.271ac915.chunk.js": "/pinn/static/js/2.271ac915.chunk.js",
-    "static/js/2.271ac915.chunk.js.map": "/pinn/static/js/2.271ac915.chunk.js.map",
+    "static/js/2.e94a8af6.chunk.js": "/pinn/static/js/2.e94a8af6.chunk.js",
+    "static/js/2.e94a8af6.chunk.js.map": "/pinn/static/js/2.e94a8af6.chunk.js.map",
     "index.html": "/pinn/index.html",
-    "precache-manifest.b54b45f2f3ca9378f5c4e66efc00a911.js": "/pinn/precache-manifest.b54b45f2f3ca9378f5c4e66efc00a911.js",
+    "precache-manifest.b3f0a011c6d9562a31cd9e7ca960b98f.js": "/pinn/precache-manifest.b3f0a011c6d9562a31cd9e7ca960b98f.js",
     "service-worker.js": "/pinn/service-worker.js",
     "static/css/2.1a8daee9.chunk.css.map": "/pinn/static/css/2.1a8daee9.chunk.css.map",
     "static/css/main.68b449ec.chunk.css.map": "/pinn/static/css/main.68b449ec.chunk.css.map",
-    "static/js/2.271ac915.chunk.js.LICENSE.txt": "/pinn/static/js/2.271ac915.chunk.js.LICENSE.txt",
+    "static/js/2.e94a8af6.chunk.js.LICENSE.txt": "/pinn/static/js/2.e94a8af6.chunk.js.LICENSE.txt",
+    "static/media/anexo-1-hoja-de-vida-beneficiarios internacionales.docx": "/pinn/static/media/anexo-1-hoja-de-vida-beneficiarios internacionales.a1379b4e.docx",
     "static/media/anexo-1-hoja-de-vida-bootcamps.docx": "/pinn/static/media/anexo-1-hoja-de-vida-bootcamps.6b4f8b00.docx",
+    "static/media/anexo-2-declaracion-jurada-beneficiarios-internacionales.docx": "/pinn/static/media/anexo-2-declaracion-jurada-beneficiarios-internacionales.8b1cb23a.docx",
     "static/media/anexo-2-declaracion-jurada-bootcamps.docx": "/pinn/static/media/anexo-2-declaracion-jurada-bootcamps.5b6ffbdb.docx",
+    "static/media/anexo-3-consentimiento-informado-beneficiarios-internacionales.docx": "/pinn/static/media/anexo-3-consentimiento-informado-beneficiarios-internacionales.75e54157.docx",
     "static/media/anexo-3-consentimiento-informado-bootcamps.docx": "/pinn/static/media/anexo-3-consentimiento-informado-bootcamps.6a0cce4a.docx",
     "static/media/banner-aumentar-productividad-1.jpg": "/pinn/static/media/banner-aumentar-productividad-1.dd9fe5cd.jpg",
     "static/media/banner-aumentar-productividad-2.jpg": "/pinn/static/media/banner-aumentar-productividad-2.80249122.jpg",
@@ -37,8 +40,8 @@
   "entrypoints": [
     "static/js/runtime-main.4860800a.js",
     "static/css/2.1a8daee9.chunk.css",
-    "static/js/2.271ac915.chunk.js",
+    "static/js/2.e94a8af6.chunk.js",
     "static/css/main.68b449ec.chunk.css",
-    "static/js/main.375b1654.chunk.js"
+    "static/js/main.ab716500.chunk.js"
   ]
 }

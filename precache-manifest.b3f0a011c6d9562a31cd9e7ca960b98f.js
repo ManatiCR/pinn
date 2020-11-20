@@ -1,39 +1,51 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2e371bb8709b12a7faa375c8b90001dd",
+    "revision": "bb1b3b3f77e7bf5d07c779fa2e542c26",
     "url": "/pinn/index.html"
   },
   {
-    "revision": "c11b55d641c8f51c448a",
+    "revision": "e11832a0e840ce45e364",
     "url": "/pinn/static/css/2.1a8daee9.chunk.css"
   },
   {
-    "revision": "396207520803fbaf1d08",
+    "revision": "eb6bf0b09ea46480532a",
     "url": "/pinn/static/css/main.68b449ec.chunk.css"
   },
   {
-    "revision": "c11b55d641c8f51c448a",
-    "url": "/pinn/static/js/2.271ac915.chunk.js"
+    "revision": "e11832a0e840ce45e364",
+    "url": "/pinn/static/js/2.e94a8af6.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/pinn/static/js/2.271ac915.chunk.js.LICENSE.txt"
+    "url": "/pinn/static/js/2.e94a8af6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "396207520803fbaf1d08",
-    "url": "/pinn/static/js/main.375b1654.chunk.js"
+    "revision": "eb6bf0b09ea46480532a",
+    "url": "/pinn/static/js/main.ab716500.chunk.js"
   },
   {
     "revision": "f7edeb1f75f6e92255e5",
     "url": "/pinn/static/js/runtime-main.4860800a.js"
   },
   {
+    "revision": "a1379b4e1fed29757c379432de78d514",
+    "url": "/pinn/static/media/anexo-1-hoja-de-vida-beneficiarios internacionales.a1379b4e.docx"
+  },
+  {
     "revision": "6b4f8b00110ff623b813ee33fe1ce417",
     "url": "/pinn/static/media/anexo-1-hoja-de-vida-bootcamps.6b4f8b00.docx"
   },
   {
+    "revision": "8b1cb23a7c572729f19110eb9fb36db9",
+    "url": "/pinn/static/media/anexo-2-declaracion-jurada-beneficiarios-internacionales.8b1cb23a.docx"
+  },
+  {
     "revision": "5b6ffbdb9ed13408e7e3abd3b690033a",
     "url": "/pinn/static/media/anexo-2-declaracion-jurada-bootcamps.5b6ffbdb.docx"
+  },
+  {
+    "revision": "75e5415731fb1848f95bec7a23f1402b",
+    "url": "/pinn/static/media/anexo-3-consentimiento-informado-beneficiarios-internacionales.75e54157.docx"
   },
   {
     "revision": "6a0cce4a9e1d0989e8e67d6faf1108ed",
