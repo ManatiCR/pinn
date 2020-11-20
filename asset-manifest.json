@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pinn/static/css/main.68b449ec.chunk.css",
+    "main.css": "/pinn/static/css/main.0021e323.chunk.css",
     "main.js": "/pinn/static/js/main.9bacd1b9.chunk.js",
     "main.js.map": "/pinn/static/js/main.9bacd1b9.chunk.js.map",
     "runtime-main.js": "/pinn/static/js/runtime-main.4860800a.js",
@@ -9,10 +9,10 @@
     "static/js/2.e05a917d.chunk.js": "/pinn/static/js/2.e05a917d.chunk.js",
     "static/js/2.e05a917d.chunk.js.map": "/pinn/static/js/2.e05a917d.chunk.js.map",
     "index.html": "/pinn/index.html",
-    "precache-manifest.b2a8052da30b4c25f2d98201e7c8ec2d.js": "/pinn/precache-manifest.b2a8052da30b4c25f2d98201e7c8ec2d.js",
+    "precache-manifest.0dc87e203bf6e72ad58559987900b719.js": "/pinn/precache-manifest.0dc87e203bf6e72ad58559987900b719.js",
     "service-worker.js": "/pinn/service-worker.js",
     "static/css/2.1a8daee9.chunk.css.map": "/pinn/static/css/2.1a8daee9.chunk.css.map",
-    "static/css/main.68b449ec.chunk.css.map": "/pinn/static/css/main.68b449ec.chunk.css.map",
+    "static/css/main.0021e323.chunk.css.map": "/pinn/static/css/main.0021e323.chunk.css.map",
     "static/js/2.e05a917d.chunk.js.LICENSE.txt": "/pinn/static/js/2.e05a917d.chunk.js.LICENSE.txt",
     "static/media/anexo-1-hoja-de-vida-beneficiarios-internacionales.docx": "/pinn/static/media/anexo-1-hoja-de-vida-beneficiarios-internacionales.a1379b4e.docx",
     "static/media/anexo-1-hoja-de-vida-beneficiarios-nacionales.docx": "/pinn/static/media/anexo-1-hoja-de-vida-beneficiarios-nacionales.247f48aa.docx",
@@ -44,7 +44,7 @@
     "static/js/runtime-main.4860800a.js",
     "static/css/2.1a8daee9.chunk.css",
     "static/js/2.e05a917d.chunk.js",
-    "static/css/main.68b449ec.chunk.css",
+    "static/css/main.0021e323.chunk.css",
     "static/js/main.9bacd1b9.chunk.js"
   ]
 }
