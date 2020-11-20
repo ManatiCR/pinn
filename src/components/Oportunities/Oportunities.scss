@@ -369,9 +369,13 @@
   padding: 20px 40px 20px 55px;
 
   a {
+    text-decoration: underline;
+  }
+
+  a,
+  span {
     flex: 1 0 98%;
     color: #000;
-    text-decoration: underline;
     margin-bottom: 10px;
 
     @media screen and (min-width: 768px) {
