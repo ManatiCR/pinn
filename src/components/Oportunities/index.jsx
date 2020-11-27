@@ -161,7 +161,7 @@ function Oportunities({ apiUrl }) {
             ]}
             items={nationalsData}
             key="accordion-nationals"
-            applyLink=""
+            applyLink="http://eepurl.com/hi2SQv"
             closeText="Próximamente"
           />
         </div>
