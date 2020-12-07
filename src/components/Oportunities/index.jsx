@@ -137,8 +137,8 @@ function Oportunities({ apiUrl }) {
             ]}
             items={internationalsData}
             key="accordion-internationals"
-            applyLink="http://eepurl.com/hi0lyP"
-            closeText="Próximamente"
+            applyLink=""
+            closeText="Convocatoria cerrada"
           />
           <Accordion
             extraClasses="scholarships--nationals"
@@ -161,8 +161,8 @@ function Oportunities({ apiUrl }) {
             ]}
             items={nationalsData}
             key="accordion-nationals"
-            applyLink="http://eepurl.com/hi2SQv"
-            closeText="Próximamente"
+            applyLink=""
+            closeText="Convocatoria cerrada"
           />
         </div>
         <div className="oportunities__postcontent">
