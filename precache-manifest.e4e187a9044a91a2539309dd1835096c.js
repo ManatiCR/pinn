@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9f8951aaec773833864e357c9269a963",
+    "revision": "a68d2bd43850f20c90275b053a8b3d6e",
     "url": "/pinn/index.html"
   },
   {
-    "revision": "3e26948a0ae95f4f7012",
+    "revision": "86621910ed774c512de4",
     "url": "/pinn/static/css/2.afd31c77.chunk.css"
   },
   {
-    "revision": "588a5566a9a63c0c8f41",
-    "url": "/pinn/static/css/main.0a7a4e15.chunk.css"
+    "revision": "3f9b751d1ad3619884db",
+    "url": "/pinn/static/css/main.25317051.chunk.css"
   },
   {
-    "revision": "3e26948a0ae95f4f7012",
-    "url": "/pinn/static/js/2.6bd439fc.chunk.js"
+    "revision": "86621910ed774c512de4",
+    "url": "/pinn/static/js/2.b1acf4ca.chunk.js"
   },
   {
     "revision": "64f54ce285484345cd5e3bd96b120148",
-    "url": "/pinn/static/js/2.6bd439fc.chunk.js.LICENSE.txt"
+    "url": "/pinn/static/js/2.b1acf4ca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "588a5566a9a63c0c8f41",
-    "url": "/pinn/static/js/main.8deb98cd.chunk.js"
+    "revision": "3f9b751d1ad3619884db",
+    "url": "/pinn/static/js/main.4a580fb7.chunk.js"
   },
   {
     "revision": "f7edeb1f75f6e92255e5",
@@ -82,6 +82,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "01c1a4e2853398e2bb7524e6ccd80078",
     "url": "/pinn/static/media/banner-mercado-laboral.01c1a4e2.jpg"
+  },
+  {
+    "revision": "c3bd6e5a9f800599f3a4c8f9eb097d7e",
+    "url": "/pinn/static/media/cinde-v2-logo.c3bd6e5a.png"
+  },
+  {
+    "revision": "26f31f30138d4fbe2425b1f2fb13c789",
+    "url": "/pinn/static/media/esencial-v2-logo.26f31f30.png"
   },
   {
     "revision": "77e89b5d0fbd5213efc700c0a33cf186",
