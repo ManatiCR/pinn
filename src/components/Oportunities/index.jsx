@@ -8,10 +8,10 @@ import "./Oportunities.scss";
 /* Import the files. */
 import bootcampsAnnexed1 from "./../../assets/files/oportunities/bootcamps/convocatoria-2/anexo-1-hoja-de-vida-bootcamps.docx";
 import bootcampsAnnexed2 from "./../../assets/files/oportunities/bootcamps/convocatoria-2/anexo-2-declaracion-jurada-bootcamps.docx";
-import bootcampsAnnexed3 from "./../../assets/files/oportunities/bootcamps/convocatoria-1/anexo-3-consentimiento-informado-bootcamps.docx";
+import bootcampsAnnexed3 from "./../../assets/files/oportunities/bootcamps/convocatoria-2/anexo-3-consentimiento-informado-bootcamps.docx";
 import internationalsAnnexed1 from "./../../assets/files/oportunities/internacionales/convocatoria-2/anexo-1-hoja-de-vida-beneficiarios-internacionales.docx";
-import internationalsAnnexed2 from "./../../assets/files/oportunities/internacionales/convocatoria-2/anexo-2-declaracion-jurada-beneficiarios-internacionales.rtf";
-import internationalsAnnexed3 from "./../../assets/files/oportunities/internacionales/convocatoria-1/anexo-3-consentimiento-informado-beneficiarios-internacionales.docx";
+import internationalsAnnexed2 from "./../../assets/files/oportunities/internacionales/convocatoria-2/anexo-2-declaracion-jurada-beneficiarios-internacionales.docx";
+import internationalsAnnexed3 from "./../../assets/files/oportunities/internacionales/convocatoria-2/anexo-3-consentimiento-informado-beneficiarios-internacionales.docx";
 import nationalsAnnexed1 from "./../../assets/files/oportunities/nacionales/anexo-1-hoja-de-vida-beneficiarios-nacionales.docx";
 import nationalsAnnexed2 from "./../../assets/files/oportunities/nacionales/anexo-2-declaracion-jurada-beneficiarios-nacionales.docx";
 import nationalsAnnexed3 from "./../../assets/files/oportunities/nacionales/anexo-3-consentimiento-informado-beneficiarios-nacionales.docx";
@@ -105,11 +105,11 @@ function Oportunities({ apiUrl }) {
               {
                 url: bootcampsAnnexed2,
                 text: "Anexo 2: Declaración jurada"
-              } //,
-              // {
-              //   url: bootcampsAnnexed3,
-              //   text: "Anexo 3: Consentimiento informado"
-              // }
+              } ,
+              {
+                url: bootcampsAnnexed3,
+                text: "Anexo 3: Consentimiento informado"
+              }
             ]}
             items={bootCampsData}
             key="accordion-bootcamps"
@@ -130,11 +130,11 @@ function Oportunities({ apiUrl }) {
                 url: internationalsAnnexed2,
                 text: "Anexo 2: Declaración jurada"
               }
-              //,
-              // {
-              //   url: internationalsAnnexed3,
-              //   text: "Anexo 3: Consentimiento informado"
-              // }
+              ,
+              {
+                url: internationalsAnnexed3,
+                text: "Anexo 3: Consentimiento informado"
+              }
             ]}
             items={internationalsData}
             key="accordion-internationals"
