@@ -113,7 +113,7 @@ function Oportunities({ apiUrl }) {
             ]}
             items={bootCampsData}
             key="accordion-bootcamps"
-            applyLink=""
+            applyLink="http://eepurl.com/htDZ7H"
             closeText="Convocatoria cerrada"
           />
           <Accordion
@@ -138,7 +138,7 @@ function Oportunities({ apiUrl }) {
             ]}
             items={internationalsData}
             key="accordion-internationals"
-            applyLink=""
+            applyLink="http://eepurl.com/htFy5b"
             closeText="Convocatoria cerrada"
           />
           <Accordion
