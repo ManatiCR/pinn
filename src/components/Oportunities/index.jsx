@@ -6,12 +6,12 @@ import Accordion from "./../Accordion";
 import "./Oportunities.scss";
 
 /* Import the files. */
-import bootcampsAnnexed1 from "./../../assets/files/oportunities/bootcamps/convocatoria-2/anexo-1-hoja-de-vida-bootcamps.docx";
-import bootcampsAnnexed2 from "./../../assets/files/oportunities/bootcamps/convocatoria-2/anexo-2-declaracion-jurada-bootcamps.docx";
-import bootcampsAnnexed3 from "./../../assets/files/oportunities/bootcamps/convocatoria-2/anexo-3-consentimiento-informado-bootcamps.docx";
-import internationalsAnnexed1 from "./../../assets/files/oportunities/internacionales/convocatoria-2/anexo-1-hoja-de-vida-beneficiarios-internacionales.docx";
-import internationalsAnnexed2 from "./../../assets/files/oportunities/internacionales/convocatoria-2/anexo-2-declaracion-jurada-beneficiarios-internacionales.docx";
-import internationalsAnnexed3 from "./../../assets/files/oportunities/internacionales/convocatoria-2/anexo-3-consentimiento-informado-beneficiarios-internacionales.docx";
+import bootcampsAnnexed1 from "./../../assets/files/oportunities/bootcamps/convocatoria-3/anexo-1-hoja-de-vida-bootcamps.docx";
+import bootcampsAnnexed2 from "./../../assets/files/oportunities/bootcamps/convocatoria-3/anexo-2-declaracion-jurada-bootcamps.docx";
+import bootcampsAnnexed3 from "./../../assets/files/oportunities/bootcamps/convocatoria-3/anexo-3-consentimiento-informado-bootcamps.docx";
+import internationalsAnnexed1 from "./../../assets/files/oportunities/internacionales/convocatoria-3/anexo-1-hoja-de-vida-beneficiarios-internacionales.docx";
+import internationalsAnnexed2 from "./../../assets/files/oportunities/internacionales/convocatoria-3/anexo-2-declaracion-jurada-beneficiarios-internacionales.docx";
+import internationalsAnnexed3 from "./../../assets/files/oportunities/internacionales/convocatoria-3/anexo-3-consentimiento-informado-beneficiarios-internacionales.docx";
 import nationalsAnnexed1 from "./../../assets/files/oportunities/nacionales/anexo-1-hoja-de-vida-beneficiarios-nacionales.docx";
 import nationalsAnnexed2 from "./../../assets/files/oportunities/nacionales/anexo-2-declaracion-jurada-beneficiarios-nacionales.docx";
 import nationalsAnnexed3 from "./../../assets/files/oportunities/nacionales/anexo-3-consentimiento-informado-beneficiarios-nacionales.docx";
