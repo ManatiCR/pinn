@@ -113,7 +113,7 @@ function Oportunities({ apiUrl }) {
             ]}
             items={bootCampsData}
             key="accordion-bootcamps"
-            applyLink=""
+            applyLink="http://eepurl.com/htFGyv"
             closeText="Convocatoria cerrada"
           />
           <Accordion
