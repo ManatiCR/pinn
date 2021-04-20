@@ -138,7 +138,7 @@ function Oportunities({ apiUrl }) {
             ]}
             items={internationalsData}
             key="accordion-internationals"
-            applyLink=""
+            applyLink="http://eepurl.com/htFDhX"
             closeText="Convocatoria cerrada"
           />
           <Accordion
