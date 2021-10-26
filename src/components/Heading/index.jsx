@@ -5,7 +5,7 @@ import "./Heading.scss";
 function Heading() {
   return (
     <div className="heading">
-      <h1 className="heading__title">Programa de Innovación y<br /> Capital Humano (PINN)</h1>
+      <h1 className="heading__title">¡Damos por finalizado el programa Becas PINN!</h1>
     </div>
   )
 };
