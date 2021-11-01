@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/pinn/static/css/main.66408c05.chunk.css",
-    "main.js": "/pinn/static/js/main.2bb3d5b3.chunk.js",
-    "main.js.map": "/pinn/static/js/main.2bb3d5b3.chunk.js.map",
-    "runtime-main.js": "/pinn/static/js/runtime-main.4860800a.js",
-    "runtime-main.js.map": "/pinn/static/js/runtime-main.4860800a.js.map",
-    "static/js/2.b7fedcca.chunk.js": "/pinn/static/js/2.b7fedcca.chunk.js",
-    "static/js/2.b7fedcca.chunk.js.map": "/pinn/static/js/2.b7fedcca.chunk.js.map",
-    "index.html": "/pinn/index.html",
-    "precache-manifest.20b993ae2d98ad65ed068cbe4d97e3d6.js": "/pinn/precache-manifest.20b993ae2d98ad65ed068cbe4d97e3d6.js",
-    "service-worker.js": "/pinn/service-worker.js",
-    "static/css/main.66408c05.chunk.css.map": "/pinn/static/css/main.66408c05.chunk.css.map",
-    "static/js/2.b7fedcca.chunk.js.LICENSE.txt": "/pinn/static/js/2.b7fedcca.chunk.js.LICENSE.txt",
-    "static/media/cinde-jobs-logo.png": "/pinn/static/media/cinde-jobs-logo.bd4d2b90.png",
-    "static/media/cinde-v2-logo.png": "/pinn/static/media/cinde-v2-logo.c3bd6e5a.png",
-    "static/media/esencial-v2-logo.png": "/pinn/static/media/esencial-v2-logo.26f31f30.png",
-    "static/media/logo.png": "/pinn/static/media/logo.77e89b5d.png",
-    "static/media/Heading.scss": "/pinn/static/media/patron.90891906.svg",
-    "static/media/_index.scss": "/pinn/static/media/slick.f97e3bbf.svg"
+    "main.css": "/static/css/main.10ec4b25.chunk.css",
+    "main.js": "/static/js/main.4f6203d3.chunk.js",
+    "main.js.map": "/static/js/main.4f6203d3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cf4eeb1a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cf4eeb1a.js.map",
+    "static/js/2.b7fedcca.chunk.js": "/static/js/2.b7fedcca.chunk.js",
+    "static/js/2.b7fedcca.chunk.js.map": "/static/js/2.b7fedcca.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.02b7c0efeff74e9b62932494d213c110.js": "/precache-manifest.02b7c0efeff74e9b62932494d213c110.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.10ec4b25.chunk.css.map": "/static/css/main.10ec4b25.chunk.css.map",
+    "static/js/2.b7fedcca.chunk.js.LICENSE.txt": "/static/js/2.b7fedcca.chunk.js.LICENSE.txt",
+    "static/media/cinde-jobs-logo.png": "/static/media/cinde-jobs-logo.bd4d2b90.png",
+    "static/media/cinde-v2-logo.png": "/static/media/cinde-v2-logo.c3bd6e5a.png",
+    "static/media/esencial-v2-logo.png": "/static/media/esencial-v2-logo.26f31f30.png",
+    "static/media/logo.png": "/static/media/logo.77e89b5d.png",
+    "static/media/Heading.scss": "/static/media/patron.90891906.svg",
+    "static/media/_index.scss": "/static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4860800a.js",
+    "static/js/runtime-main.cf4eeb1a.js",
     "static/js/2.b7fedcca.chunk.js",
-    "static/css/main.66408c05.chunk.css",
-    "static/js/main.2bb3d5b3.chunk.js"
+    "static/css/main.10ec4b25.chunk.css",
+    "static/js/main.4f6203d3.chunk.js"
   ]
 }
